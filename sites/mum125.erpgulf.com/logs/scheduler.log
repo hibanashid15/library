@@ -1,0 +1,186 @@
+2021-09-14 08:45:02,631 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 08:45:02,683 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for mum125.erpgulf.com
+2021-09-14 08:45:03,075 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for mum125.erpgulf.com
+2021-09-14 08:45:03,145 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for mum125.erpgulf.com
+2021-09-14 08:45:03,499 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for mum125.erpgulf.com
+2021-09-14 08:45:03,572 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for mum125.erpgulf.com
+2021-09-14 08:45:03,910 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for mum125.erpgulf.com
+2021-09-14 08:46:02,856 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 08:47:03,073 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 08:48:03,328 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mum125.erpgulf.com
+2021-09-14 08:48:03,363 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 08:48:03,634 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mum125.erpgulf.com
+2021-09-14 08:48:03,706 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mum125.erpgulf.com
+2021-09-14 08:48:03,987 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mum125.erpgulf.com
+2021-09-14 08:48:04,056 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for mum125.erpgulf.com
+2021-09-14 08:48:04,448 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for mum125.erpgulf.com
+2021-09-14 08:48:04,514 INFO scheduler Scheduled Job Start: frappe.monitor.flush for mum125.erpgulf.com
+2021-09-14 08:48:04,760 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for mum125.erpgulf.com
+2021-09-14 08:48:04,827 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for mum125.erpgulf.com
+2021-09-14 08:48:05,072 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for mum125.erpgulf.com
+2021-09-14 08:48:05,140 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mum125.erpgulf.com
+2021-09-14 08:48:05,577 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mum125.erpgulf.com
+2021-09-14 08:48:05,644 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for mum125.erpgulf.com
+2021-09-14 08:48:05,947 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for mum125.erpgulf.com
+2021-09-14 08:48:06,015 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for mum125.erpgulf.com
+2021-09-14 08:48:06,331 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for mum125.erpgulf.com
+2021-09-14 08:48:06,399 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for mum125.erpgulf.com
+2021-09-14 08:48:06,660 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for mum125.erpgulf.com
+2021-09-14 08:49:03,578 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 08:50:03,797 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 08:51:04,020 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 08:52:04,273 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mum125.erpgulf.com
+2021-09-14 08:52:04,309 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 08:52:04,563 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mum125.erpgulf.com
+2021-09-14 08:52:04,629 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mum125.erpgulf.com
+2021-09-14 08:52:04,884 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mum125.erpgulf.com
+2021-09-14 08:52:04,954 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for mum125.erpgulf.com
+2021-09-14 08:52:05,352 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for mum125.erpgulf.com
+2021-09-14 08:52:05,420 INFO scheduler Scheduled Job Start: frappe.monitor.flush for mum125.erpgulf.com
+2021-09-14 08:52:05,677 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for mum125.erpgulf.com
+2021-09-14 08:52:05,744 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for mum125.erpgulf.com
+2021-09-14 08:52:05,988 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for mum125.erpgulf.com
+2021-09-14 08:52:06,055 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mum125.erpgulf.com
+2021-09-14 08:52:06,445 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mum125.erpgulf.com
+2021-09-14 08:52:06,511 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for mum125.erpgulf.com
+2021-09-14 08:52:06,813 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for mum125.erpgulf.com
+2021-09-14 08:52:06,881 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for mum125.erpgulf.com
+2021-09-14 08:52:07,188 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for mum125.erpgulf.com
+2021-09-14 08:52:07,254 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for mum125.erpgulf.com
+2021-09-14 08:52:07,517 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for mum125.erpgulf.com
+2021-09-14 08:53:04,511 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 08:54:04,735 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 08:55:04,963 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 08:56:05,200 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mum125.erpgulf.com
+2021-09-14 08:56:05,267 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 08:56:05,529 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mum125.erpgulf.com
+2021-09-14 08:56:05,597 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mum125.erpgulf.com
+2021-09-14 08:56:05,881 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mum125.erpgulf.com
+2021-09-14 08:56:05,950 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for mum125.erpgulf.com
+2021-09-14 08:56:06,319 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for mum125.erpgulf.com
+2021-09-14 08:56:06,384 INFO scheduler Scheduled Job Start: frappe.monitor.flush for mum125.erpgulf.com
+2021-09-14 08:56:06,634 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for mum125.erpgulf.com
+2021-09-14 08:56:06,702 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for mum125.erpgulf.com
+2021-09-14 08:56:06,982 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for mum125.erpgulf.com
+2021-09-14 08:56:07,053 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mum125.erpgulf.com
+2021-09-14 08:56:07,476 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mum125.erpgulf.com
+2021-09-14 08:56:07,544 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for mum125.erpgulf.com
+2021-09-14 08:56:07,842 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for mum125.erpgulf.com
+2021-09-14 08:56:07,913 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for mum125.erpgulf.com
+2021-09-14 08:56:08,225 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for mum125.erpgulf.com
+2021-09-14 08:56:08,292 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for mum125.erpgulf.com
+2021-09-14 08:56:08,554 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for mum125.erpgulf.com
+2021-09-14 08:57:05,486 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 08:58:05,703 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 08:59:05,928 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 09:00:06,108 INFO scheduler Scheduled Job Start: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for mum125.erpgulf.com
+2021-09-14 09:00:06,286 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for mum125.erpgulf.com
+2021-09-14 09:00:06,813 INFO scheduler Scheduled Job Complete: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for mum125.erpgulf.com
+2021-09-14 09:00:06,850 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 09:00:07,863 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for mum125.erpgulf.com
+2021-09-14 09:00:07,935 INFO scheduler Scheduled Job Start: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for mum125.erpgulf.com
+2021-09-14 09:00:08,264 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for mum125.erpgulf.com
+2021-09-14 09:00:08,335 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for mum125.erpgulf.com
+2021-09-14 09:00:08,986 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for mum125.erpgulf.com
+2021-09-14 09:00:09,060 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.collect_project_status for mum125.erpgulf.com
+2021-09-14 09:00:09,454 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.collect_project_status for mum125.erpgulf.com
+2021-09-14 09:00:09,535 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.hourly_reminder for mum125.erpgulf.com
+2021-09-14 09:00:09,983 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.hourly_reminder for mum125.erpgulf.com
+2021-09-14 09:00:10,061 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for mum125.erpgulf.com
+2021-09-14 09:00:10,508 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for mum125.erpgulf.com
+2021-09-14 09:00:10,586 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for mum125.erpgulf.com
+2021-09-14 09:00:10,967 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for mum125.erpgulf.com
+2021-09-14 09:00:11,045 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for mum125.erpgulf.com
+2021-09-14 09:00:11,535 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for mum125.erpgulf.com
+2021-09-14 09:00:11,608 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.subscription.subscription.process_all for mum125.erpgulf.com
+2021-09-14 09:00:11,976 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.subscription.subscription.process_all for mum125.erpgulf.com
+2021-09-14 09:00:12,052 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for mum125.erpgulf.com
+2021-09-14 09:00:12,393 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for mum125.erpgulf.com
+2021-09-14 09:00:12,465 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mum125.erpgulf.com
+2021-09-14 09:00:12,775 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mum125.erpgulf.com
+2021-09-14 09:00:12,845 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mum125.erpgulf.com
+2021-09-14 09:00:13,129 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mum125.erpgulf.com
+2021-09-14 09:00:13,200 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for mum125.erpgulf.com
+2021-09-14 09:00:13,616 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for mum125.erpgulf.com
+2021-09-14 09:00:13,689 INFO scheduler Scheduled Job Start: erpnext.utilities.doctype.video.video.update_youtube_data for mum125.erpgulf.com
+2021-09-14 09:00:14,124 INFO scheduler Scheduled Job Failed: erpnext.utilities.doctype.video.video.update_youtube_data for mum125.erpgulf.com
+2021-09-14 09:00:14,203 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for mum125.erpgulf.com
+2021-09-14 09:00:14,606 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for mum125.erpgulf.com
+2021-09-14 09:00:14,677 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for mum125.erpgulf.com
+2021-09-14 09:00:15,598 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for mum125.erpgulf.com
+2021-09-14 09:00:15,839 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for mum125.erpgulf.com
+2021-09-14 09:00:16,174 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for mum125.erpgulf.com
+2021-09-14 09:00:16,252 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for mum125.erpgulf.com
+2021-09-14 09:00:16,587 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for mum125.erpgulf.com
+2021-09-14 09:00:16,660 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for mum125.erpgulf.com
+2021-09-14 09:00:16,991 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for mum125.erpgulf.com
+2021-09-14 09:00:17,066 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for mum125.erpgulf.com
+2021-09-14 09:00:17,396 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for mum125.erpgulf.com
+2021-09-14 09:00:17,467 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for mum125.erpgulf.com
+2021-09-14 09:00:17,786 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for mum125.erpgulf.com
+2021-09-14 09:00:17,857 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for mum125.erpgulf.com
+2021-09-14 09:00:18,157 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for mum125.erpgulf.com
+2021-09-14 09:00:18,228 INFO scheduler Scheduled Job Start: frappe.monitor.flush for mum125.erpgulf.com
+2021-09-14 09:00:18,475 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for mum125.erpgulf.com
+2021-09-14 09:00:18,545 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for mum125.erpgulf.com
+2021-09-14 09:00:18,793 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for mum125.erpgulf.com
+2021-09-14 09:00:18,863 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mum125.erpgulf.com
+2021-09-14 09:00:19,263 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mum125.erpgulf.com
+2021-09-14 09:00:19,334 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for mum125.erpgulf.com
+2021-09-14 09:00:19,667 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for mum125.erpgulf.com
+2021-09-14 09:00:19,736 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for mum125.erpgulf.com
+2021-09-14 09:00:20,050 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for mum125.erpgulf.com
+2021-09-14 09:00:20,117 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for mum125.erpgulf.com
+2021-09-14 09:00:20,380 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for mum125.erpgulf.com
+2021-09-14 09:00:20,446 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for mum125.erpgulf.com
+2021-09-14 09:00:20,775 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for mum125.erpgulf.com
+2021-09-14 09:00:20,845 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for mum125.erpgulf.com
+2021-09-14 09:00:21,198 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for mum125.erpgulf.com
+2021-09-14 09:00:21,269 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for mum125.erpgulf.com
+2021-09-14 09:00:21,604 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for mum125.erpgulf.com
+2021-09-14 09:01:07,079 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 09:02:07,306 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 09:03:07,531 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 09:04:07,788 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mum125.erpgulf.com
+2021-09-14 09:04:07,814 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 09:04:08,116 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mum125.erpgulf.com
+2021-09-14 09:04:08,189 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mum125.erpgulf.com
+2021-09-14 09:04:08,479 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mum125.erpgulf.com
+2021-09-14 09:04:08,550 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for mum125.erpgulf.com
+2021-09-14 09:04:08,933 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for mum125.erpgulf.com
+2021-09-14 09:04:09,003 INFO scheduler Scheduled Job Start: frappe.monitor.flush for mum125.erpgulf.com
+2021-09-14 09:04:09,255 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for mum125.erpgulf.com
+2021-09-14 09:04:09,325 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for mum125.erpgulf.com
+2021-09-14 09:04:09,573 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for mum125.erpgulf.com
+2021-09-14 09:04:09,646 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mum125.erpgulf.com
+2021-09-14 09:04:10,034 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mum125.erpgulf.com
+2021-09-14 09:04:10,105 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for mum125.erpgulf.com
+2021-09-14 09:04:10,450 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for mum125.erpgulf.com
+2021-09-14 09:04:10,521 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for mum125.erpgulf.com
+2021-09-14 09:04:10,874 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for mum125.erpgulf.com
+2021-09-14 09:04:10,944 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for mum125.erpgulf.com
+2021-09-14 09:04:11,209 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for mum125.erpgulf.com
+2021-09-14 09:05:08,040 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 09:06:08,271 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 09:07:08,486 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 09:08:08,730 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mum125.erpgulf.com
+2021-09-14 09:08:08,802 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 09:08:09,036 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for mum125.erpgulf.com
+2021-09-14 09:08:09,102 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mum125.erpgulf.com
+2021-09-14 09:08:09,419 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mum125.erpgulf.com
+2021-09-14 09:08:09,610 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for mum125.erpgulf.com
+2021-09-14 09:08:10,049 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for mum125.erpgulf.com
+2021-09-14 09:08:10,121 INFO scheduler Scheduled Job Start: frappe.monitor.flush for mum125.erpgulf.com
+2021-09-14 09:08:10,398 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for mum125.erpgulf.com
+2021-09-14 09:08:10,467 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for mum125.erpgulf.com
+2021-09-14 09:08:10,744 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for mum125.erpgulf.com
+2021-09-14 09:08:10,816 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mum125.erpgulf.com
+2021-09-14 09:08:11,234 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mum125.erpgulf.com
+2021-09-14 09:08:11,311 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for mum125.erpgulf.com
+2021-09-14 09:08:11,648 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for mum125.erpgulf.com
+2021-09-14 09:08:11,719 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for mum125.erpgulf.com
+2021-09-14 09:08:12,110 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for mum125.erpgulf.com
+2021-09-14 09:08:12,178 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for mum125.erpgulf.com
+2021-09-14 09:08:12,472 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for mum125.erpgulf.com
+2021-09-14 09:09:09,027 DEBUG scheduler Queued events for site mum125.erpgulf.com
+2021-09-14 09:10:09,250 DEBUG scheduler Queued events for site mum125.erpgulf.com

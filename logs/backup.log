@@ -1,0 +1,488 @@
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210828_233002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-08-28 23:30:03.503772
+Config  : ./mum125.erpgulf.com/private/backups/20210828_233002-mum125_erpgulf_com-site_config_backup.json 94.0B
+Database: ./mum125.erpgulf.com/private/backups/20210828_233002-mum125_erpgulf_com-database.sql.gz         226.4KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+Backup failed for Site mum125.erpgulf.com. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 614, in connect
+    (self.host, self.port), self.connect_timeout, **kwargs
+  File "/usr/lib64/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib64/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/commands/site.py", line 441, in backup
+    force=True
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/backups.py", line 528, in scheduled_backup
+    verbose=verbose,
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/backups.py", line 565, in new_backup
+    compress_files=compress,
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/backups.py", line 85, in __init__
+    self.setup_backup_tables()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/backups.py", line 119, in setup_backup_tables
+    existing_doctypes = set([x.name for x in frappe.get_all("DocType")])
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 1433, in get_all
+    return get_list(doctype, *args, **kwargs)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 1406, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 101, in execute
+    self.columns = self.get_table_columns()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 338, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 49, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 892, in get_table_columns
+    columns = self.get_db_table_columns('tab' + doctype)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 883, in get_db_table_columns
+    where table_name = %s ''', table)]
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 120, in sql
+    self.connect()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 73, in connect
+    self._conn = self.get_connection()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 80, in get_connection
+    local_infile=frappe.conf.local_infile
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+Backup failed for Site mum125.erpgulf.com. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 614, in connect
+    (self.host, self.port), self.connect_timeout, **kwargs
+  File "/usr/lib64/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib64/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/commands/site.py", line 441, in backup
+    force=True
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/backups.py", line 528, in scheduled_backup
+    verbose=verbose,
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/backups.py", line 565, in new_backup
+    compress_files=compress,
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/backups.py", line 85, in __init__
+    self.setup_backup_tables()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/backups.py", line 119, in setup_backup_tables
+    existing_doctypes = set([x.name for x in frappe.get_all("DocType")])
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 1433, in get_all
+    return get_list(doctype, *args, **kwargs)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 1406, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 101, in execute
+    self.columns = self.get_table_columns()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 338, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 49, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 892, in get_table_columns
+    columns = self.get_db_table_columns('tab' + doctype)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 883, in get_db_table_columns
+    where table_name = %s ''', table)]
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 120, in sql
+    self.connect()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 73, in connect
+    self._conn = self.get_connection()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 80, in get_connection
+    local_infile=frappe.conf.local_infile
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 111] Connection refused)")
+
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210829_150001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-08-29 15:00:02.246909
+Config  : ./mum125.erpgulf.com/private/backups/20210829_150001-mum125_erpgulf_com-site_config_backup.json 94.0B
+Database: ./mum125.erpgulf.com/private/backups/20210829_150001-mum125_erpgulf_com-database.sql.gz         252.2KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210829_210001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-08-29 21:00:02.106509
+Config  : ./mum125.erpgulf.com/private/backups/20210829_210001-mum125_erpgulf_com-site_config_backup.json 94.0B
+Database: ./mum125.erpgulf.com/private/backups/20210829_210001-mum125_erpgulf_com-database.sql.gz         260.2KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210830_030001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-08-30 03:00:02.337484
+Config  : ./mum125.erpgulf.com/private/backups/20210830_030001-mum125_erpgulf_com-site_config_backup.json 94.0B
+Database: ./mum125.erpgulf.com/private/backups/20210830_030001-mum125_erpgulf_com-database.sql.gz         268.9KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210830_090002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-08-30 09:00:02.687986
+Config  : ./mum125.erpgulf.com/private/backups/20210830_090002-mum125_erpgulf_com-site_config_backup.json 94.0B
+Database: ./mum125.erpgulf.com/private/backups/20210830_090002-mum125_erpgulf_com-database.sql.gz         276.9KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210830_150001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-08-30 15:00:02.093825
+Config  : ./mum125.erpgulf.com/private/backups/20210830_150001-mum125_erpgulf_com-site_config_backup.json 94.0B
+Database: ./mum125.erpgulf.com/private/backups/20210830_150001-mum125_erpgulf_com-database.sql.gz         285.3KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210830_210001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-08-30 21:00:02.067035
+Config  : ./mum125.erpgulf.com/private/backups/20210830_210001-mum125_erpgulf_com-site_config_backup.json 94.0B
+Database: ./mum125.erpgulf.com/private/backups/20210830_210001-mum125_erpgulf_com-database.sql.gz         292.9KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210831_030002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-08-31 03:00:02.734540
+Config  : ./mum125.erpgulf.com/private/backups/20210831_030002-mum125_erpgulf_com-site_config_backup.json 94.0B
+Database: ./mum125.erpgulf.com/private/backups/20210831_030002-mum125_erpgulf_com-database.sql.gz         301.3KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210831_090002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-08-31 09:00:02.720637
+Config  : ./mum125.erpgulf.com/private/backups/20210831_090002-mum125_erpgulf_com-site_config_backup.json 94.0B
+Database: ./mum125.erpgulf.com/private/backups/20210831_090002-mum125_erpgulf_com-database.sql.gz         308.8KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210831_150002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-08-31 15:00:02.840774
+Config  : ./mum125.erpgulf.com/private/backups/20210831_150002-mum125_erpgulf_com-site_config_backup.json 94.0B
+Database: ./mum125.erpgulf.com/private/backups/20210831_150002-mum125_erpgulf_com-database.sql.gz         316.2KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210831_210002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-08-31 21:00:02.600834
+Config  : ./mum125.erpgulf.com/private/backups/20210831_210002-mum125_erpgulf_com-site_config_backup.json 94.0B
+Database: ./mum125.erpgulf.com/private/backups/20210831_210002-mum125_erpgulf_com-database.sql.gz         323.5KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210901_030002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-01 03:00:03.453680
+Config  : ./mum125.erpgulf.com/private/backups/20210901_030002-mum125_erpgulf_com-site_config_backup.json 94.0B
+Database: ./mum125.erpgulf.com/private/backups/20210901_030002-mum125_erpgulf_com-database.sql.gz         332.8KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210901_090001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-01 09:00:02.400776
+Config  : ./mum125.erpgulf.com/private/backups/20210901_090001-mum125_erpgulf_com-site_config_backup.json 94.0B
+Database: ./mum125.erpgulf.com/private/backups/20210901_090001-mum125_erpgulf_com-database.sql.gz         340.1KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210901_150002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-01 15:00:02.526808
+Config  : ./mum125.erpgulf.com/private/backups/20210901_150002-mum125_erpgulf_com-site_config_backup.json 115.0B
+Database: ./mum125.erpgulf.com/private/backups/20210901_150002-mum125_erpgulf_com-database.sql.gz         348.8KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210901_210002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-01 21:00:02.482729
+Config  : ./mum125.erpgulf.com/private/backups/20210901_210002-mum125_erpgulf_com-site_config_backup.json 115.0B
+Database: ./mum125.erpgulf.com/private/backups/20210901_210002-mum125_erpgulf_com-database.sql.gz         356.6KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210902_030002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-02 03:00:03.114997
+Config  : ./mum125.erpgulf.com/private/backups/20210902_030002-mum125_erpgulf_com-site_config_backup.json 115.0B
+Database: ./mum125.erpgulf.com/private/backups/20210902_030002-mum125_erpgulf_com-database.sql.gz         365.4KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210902_090002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-02 09:00:02.415853
+Config  : ./mum125.erpgulf.com/private/backups/20210902_090002-mum125_erpgulf_com-site_config_backup.json 115.0B
+Database: ./mum125.erpgulf.com/private/backups/20210902_090002-mum125_erpgulf_com-database.sql.gz         373.8KiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210902_150001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-02 15:00:04.247958
+Config  : ./mum125.erpgulf.com/private/backups/20210902_150001-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210902_150001-mum125_erpgulf_com-database.sql.gz         1.3MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210902_210002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-02 21:00:03.987994
+Config  : ./mum125.erpgulf.com/private/backups/20210902_210002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210902_210002-mum125_erpgulf_com-database.sql.gz         1.3MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210903_030001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-03 03:00:03.947753
+Config  : ./mum125.erpgulf.com/private/backups/20210903_030001-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210903_030001-mum125_erpgulf_com-database.sql.gz         1.3MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210903_090002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-03 09:00:04.637796
+Config  : ./mum125.erpgulf.com/private/backups/20210903_090002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210903_090002-mum125_erpgulf_com-database.sql.gz         1.3MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210903_150002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-03 15:00:03.556865
+Config  : ./mum125.erpgulf.com/private/backups/20210903_150002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210903_150002-mum125_erpgulf_com-database.sql.gz         1.3MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210903_210002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-03 21:00:04.239742
+Config  : ./mum125.erpgulf.com/private/backups/20210903_210002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210903_210002-mum125_erpgulf_com-database.sql.gz         1.3MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210904_030002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-04 03:00:04.007480
+Config  : ./mum125.erpgulf.com/private/backups/20210904_030002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210904_030002-mum125_erpgulf_com-database.sql.gz         1.4MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210904_090002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-04 09:00:03.845902
+Config  : ./mum125.erpgulf.com/private/backups/20210904_090002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210904_090002-mum125_erpgulf_com-database.sql.gz         1.4MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210904_150002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-04 15:00:04.720563
+Config  : ./mum125.erpgulf.com/private/backups/20210904_150002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210904_150002-mum125_erpgulf_com-database.sql.gz         1.4MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210904_210001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-04 21:00:03.473107
+Config  : ./mum125.erpgulf.com/private/backups/20210904_210001-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210904_210001-mum125_erpgulf_com-database.sql.gz         1.4MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210905_030001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-05 03:00:04.694016
+Config  : ./mum125.erpgulf.com/private/backups/20210905_030001-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210905_030001-mum125_erpgulf_com-database.sql.gz         1.4MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210905_090002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-05 09:00:05.186429
+Config  : ./mum125.erpgulf.com/private/backups/20210905_090002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210905_090002-mum125_erpgulf_com-database.sql.gz         1.5MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210905_150002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-05 15:00:04.023644
+Config  : ./mum125.erpgulf.com/private/backups/20210905_150002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210905_150002-mum125_erpgulf_com-database.sql.gz         1.5MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210905_210001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-05 21:00:03.216321
+Config  : ./mum125.erpgulf.com/private/backups/20210905_210001-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210905_210001-mum125_erpgulf_com-database.sql.gz         1.5MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210906_030001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-06 03:00:03.937983
+Config  : ./mum125.erpgulf.com/private/backups/20210906_030001-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210906_030001-mum125_erpgulf_com-database.sql.gz         1.5MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210906_090002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-06 09:00:04.153915
+Config  : ./mum125.erpgulf.com/private/backups/20210906_090002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210906_090002-mum125_erpgulf_com-database.sql.gz         1.5MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210906_150002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-06 15:00:03.871860
+Config  : ./mum125.erpgulf.com/private/backups/20210906_150002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210906_150002-mum125_erpgulf_com-database.sql.gz         1.5MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210906_210002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-06 21:00:03.989466
+Config  : ./mum125.erpgulf.com/private/backups/20210906_210002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210906_210002-mum125_erpgulf_com-database.sql.gz         1.5MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210907_030001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-07 03:00:03.936908
+Config  : ./mum125.erpgulf.com/private/backups/20210907_030001-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210907_030001-mum125_erpgulf_com-database.sql.gz         1.6MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210907_090001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-07 09:00:03.287222
+Config  : ./mum125.erpgulf.com/private/backups/20210907_090001-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210907_090001-mum125_erpgulf_com-database.sql.gz         1.6MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210907_150002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-07 15:00:06.875355
+Config  : ./mum125.erpgulf.com/private/backups/20210907_150002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210907_150002-mum125_erpgulf_com-database.sql.gz         1.6MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210907_210001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-07 21:00:03.388645
+Config  : ./mum125.erpgulf.com/private/backups/20210907_210001-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210907_210001-mum125_erpgulf_com-database.sql.gz         1.6MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210908_030002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-08 03:00:04.377514
+Config  : ./mum125.erpgulf.com/private/backups/20210908_030002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210908_030002-mum125_erpgulf_com-database.sql.gz         1.6MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210908_090002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-08 09:00:04.702775
+Config  : ./mum125.erpgulf.com/private/backups/20210908_090002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210908_090002-mum125_erpgulf_com-database.sql.gz         1.6MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210908_150001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-08 15:00:04.700308
+Config  : ./mum125.erpgulf.com/private/backups/20210908_150001-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210908_150001-mum125_erpgulf_com-database.sql.gz         1.7MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210908_210002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-08 21:00:03.617586
+Config  : ./mum125.erpgulf.com/private/backups/20210908_210002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210908_210002-mum125_erpgulf_com-database.sql.gz         1.7MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210909_030002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-09 03:00:04.805592
+Config  : ./mum125.erpgulf.com/private/backups/20210909_030002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210909_030002-mum125_erpgulf_com-database.sql.gz         1.7MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210909_090001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-09 09:00:08.386088
+Config  : ./mum125.erpgulf.com/private/backups/20210909_090001-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210909_090001-mum125_erpgulf_com-database.sql.gz         1.7MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210909_150002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-09 15:00:09.746136
+Config  : ./mum125.erpgulf.com/private/backups/20210909_150002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210909_150002-mum125_erpgulf_com-database.sql.gz         1.8MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210909_210001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-09 21:00:03.514215
+Config  : ./mum125.erpgulf.com/private/backups/20210909_210001-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210909_210001-mum125_erpgulf_com-database.sql.gz         1.8MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210910_030002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-10 03:00:04.500157
+Config  : ./mum125.erpgulf.com/private/backups/20210910_030002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210910_030002-mum125_erpgulf_com-database.sql.gz         1.8MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210910_090002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-10 09:00:04.186773
+Config  : ./mum125.erpgulf.com/private/backups/20210910_090002-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210910_090002-mum125_erpgulf_com-database.sql.gz         1.8MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210910_150001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-10 15:00:03.054393
+Config  : ./mum125.erpgulf.com/private/backups/20210910_150001-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210910_150001-mum125_erpgulf_com-database.sql.gz         1.8MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210910_210001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-10 21:00:03.011923
+Config  : ./mum125.erpgulf.com/private/backups/20210910_210001-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210910_210001-mum125_erpgulf_com-database.sql.gz         1.8MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210911_030003-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-11 03:00:25.911285
+Config  : ./mum125.erpgulf.com/private/backups/20210911_030003-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210911_030003-mum125_erpgulf_com-database.sql.gz         1.9MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210911_090003-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-11 09:00:14.949774
+Config  : ./mum125.erpgulf.com/private/backups/20210911_090003-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210911_090003-mum125_erpgulf_com-database.sql.gz         1.9MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210911_150003-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-11 15:00:05.739151
+Config  : ./mum125.erpgulf.com/private/backups/20210911_150003-mum125_erpgulf_com-site_config_backup.json 180.0B
+Database: ./mum125.erpgulf.com/private/backups/20210911_150003-mum125_erpgulf_com-database.sql.gz         1.9MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210911_210022-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-11 21:01:05.804328
+Config  : ./mum125.erpgulf.com/private/backups/20210911_210022-mum125_erpgulf_com-site_config_backup.json 212.0B
+Database: ./mum125.erpgulf.com/private/backups/20210911_210022-mum125_erpgulf_com-database.sql.gz         1.9MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210912_030003-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-12 03:00:05.885021
+Config  : ./mum125.erpgulf.com/private/backups/20210912_030003-mum125_erpgulf_com-site_config_backup.json 279.0B
+Database: ./mum125.erpgulf.com/private/backups/20210912_030003-mum125_erpgulf_com-database.sql.gz         2.0MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210912_090001-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-12 09:00:12.903668
+Config  : ./mum125.erpgulf.com/private/backups/20210912_090001-mum125_erpgulf_com-site_config_backup.json 279.0B
+Database: ./mum125.erpgulf.com/private/backups/20210912_090001-mum125_erpgulf_com-database.sql.gz         2.0MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210912_150004-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-12 15:00:16.767858
+Config  : ./mum125.erpgulf.com/private/backups/20210912_150004-mum125_erpgulf_com-site_config_backup.json 279.0B
+Database: ./mum125.erpgulf.com/private/backups/20210912_150004-mum125_erpgulf_com-database.sql.gz         2.0MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210912_210004-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-12 21:00:07.226835
+Config  : ./mum125.erpgulf.com/private/backups/20210912_210004-mum125_erpgulf_com-site_config_backup.json 279.0B
+Database: ./mum125.erpgulf.com/private/backups/20210912_210004-mum125_erpgulf_com-database.sql.gz         2.0MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210913_030003-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-13 03:00:05.749435
+Config  : ./mum125.erpgulf.com/private/backups/20210913_030003-mum125_erpgulf_com-site_config_backup.json 279.0B
+Database: ./mum125.erpgulf.com/private/backups/20210913_030003-mum125_erpgulf_com-database.sql.gz         2.0MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210913_090004-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-13 09:00:08.202726
+Config  : ./mum125.erpgulf.com/private/backups/20210913_090004-mum125_erpgulf_com-site_config_backup.json 279.0B
+Database: ./mum125.erpgulf.com/private/backups/20210913_090004-mum125_erpgulf_com-database.sql.gz         2.0MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210913_150002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-13 15:00:12.503056
+Config  : ./mum125.erpgulf.com/private/backups/20210913_150002-mum125_erpgulf_com-site_config_backup.json 279.0B
+Database: ./mum125.erpgulf.com/private/backups/20210913_150002-mum125_erpgulf_com-database.sql.gz         2.1MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210913_210004-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-13 21:00:06.946820
+Config  : ./mum125.erpgulf.com/private/backups/20210913_210004-mum125_erpgulf_com-site_config_backup.json 279.0B
+Database: ./mum125.erpgulf.com/private/backups/20210913_210004-mum125_erpgulf_com-database.sql.gz         2.1MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210914_030004-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-14 03:00:06.886188
+Config  : ./mum125.erpgulf.com/private/backups/20210914_030004-mum125_erpgulf_com-site_config_backup.json 279.0B
+Database: ./mum125.erpgulf.com/private/backups/20210914_030004-mum125_erpgulf_com-database.sql.gz         2.1MiB
+Backup for Site mum125.erpgulf.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _3cfaed9364effb72 -pPQni4ydqK2tquSBh _3cfaed9364effb72 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./mum125.erpgulf.com/private/backups/20210914_090002-mum125_erpgulf_com-database.sql.gz
+
+Backup Summary for mum125.erpgulf.com at 2021-09-14 09:00:29.298868
+Config  : ./mum125.erpgulf.com/private/backups/20210914_090002-mum125_erpgulf_com-site_config_backup.json 279.0B
+Database: ./mum125.erpgulf.com/private/backups/20210914_090002-mum125_erpgulf_com-database.sql.gz         2.1MiB
+Backup for Site mum125.erpgulf.com has been successfully completed

@@ -1,0 +1,51 @@
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib64/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 171, in start_scheduler
+    start_scheduler()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 37, in start_scheduler
+    schedule.run_pending()
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/schedule/__init__.py", line 780, in run_pending
+    default_scheduler.run_pending()
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/schedule/__init__.py", line 100, in run_pending
+    self._run_job(job)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/schedule/__init__.py", line 172, in _run_job
+    ret = job.run()
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/schedule/__init__.py", line 661, in run
+    ret = self.job_func()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 47, in enqueue_events_for_all_sites
+    with frappe.init_site():
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 287, in __enter__
+    init(self.site)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 208, in init
+    setup_module_map()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 1113, in setup_module_map
+    for module in get_module_list(app):
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 981, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 939, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'library_management'
