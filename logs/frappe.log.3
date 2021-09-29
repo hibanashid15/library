@@ -1,6 +1,6 @@
-2021-09-02 06:50:53,078 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
+2021-09-02 06:50:53,159 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
 Site: mum125.erpgulf.com
-Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","=","DocType"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
+Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","=","User"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
 Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 54, in application
     init_request(request)
@@ -76,9 +76,9 @@ Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 1360, in __repr__
     docstatus = f" docstatus={self.docstatus}" if self.docstatus else ""
 AttributeError: 'User' object has no attribute 'docstatus'
-2021-09-02 06:50:53,322 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
+2021-09-02 06:50:53,423 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
 Site: mum125.erpgulf.com
-Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","like","%ART%"],["DocType","name","=","Data Migration Plan"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
+Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","=","Web Form"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
 Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 54, in application
     init_request(request)
@@ -154,9 +154,9 @@ Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 1360, in __repr__
     docstatus = f" docstatus={self.docstatus}" if self.docstatus else ""
 AttributeError: 'User' object has no attribute 'docstatus'
-2021-09-02 06:50:53,458 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
+2021-09-02 06:50:53,688 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
 Site: mum125.erpgulf.com
-Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","like","%ART%"],["DocType","name","=","Dashboard"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
+Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","like","%ART%"],["DocType","name","=","Onboarding Step"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
 Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 54, in application
     init_request(request)
@@ -232,9 +232,9 @@ Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 1360, in __repr__
     docstatus = f" docstatus={self.docstatus}" if self.docstatus else ""
 AttributeError: 'User' object has no attribute 'docstatus'
-2021-09-02 06:50:53,660 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
+2021-09-02 06:50:53,925 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
 Site: mum125.erpgulf.com
-Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","=","Web Form Field"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
+Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","like","%ART%"],["DocType","name","=","Module Onboarding"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
 Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 54, in application
     init_request(request)
@@ -310,9 +310,9 @@ Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 1360, in __repr__
     docstatus = f" docstatus={self.docstatus}" if self.docstatus else ""
 AttributeError: 'User' object has no attribute 'docstatus'
-2021-09-02 06:50:53,911 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
+2021-09-02 06:50:54,230 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
 Site: mum125.erpgulf.com
-Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","=","Data Migration Mapping"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
+Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","like","%ART%"],["DocType","name","=","Workspace Shortcut"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
 Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 54, in application
     init_request(request)
@@ -388,9 +388,9 @@ Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 1360, in __repr__
     docstatus = f" docstatus={self.docstatus}" if self.docstatus else ""
 AttributeError: 'User' object has no attribute 'docstatus'
-2021-09-02 06:50:54,093 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
+2021-09-02 06:50:54,556 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
 Site: mum125.erpgulf.com
-Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","like","%ART%"],["DocType","name","=","Workspace Chart"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
+Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","=","Dashboard Chart"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
 Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 54, in application
     init_request(request)
@@ -436,15 +436,155 @@ Traceback (most recent call last):
     return get_list(doctype, *args, **kwargs)
   File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 1406, in get_list
     return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 101, in execute
-    self.columns = self.get_table_columns()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 338, in get_table_columns
-    return get_table_columns(self.doctype)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 49, in get_table_columns
-    return frappe.db.get_table_columns(doctype)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 894, in get_table_columns
-    raise self.TableMissingError('DocType', doctype)
-pymysql.err.ProgrammingError: ('DocType', 'Custom DocPerm')
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 106, in execute
+    result = self.build_and_run()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 144, in build_and_run
+    update=self.update, ignore_ddl=self.ignore_ddl)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 151, in sql
+    self._cursor.execute(query)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1163, in read
+    self._read_result_packet(first_packet)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1236, in _read_result_packet
+    self._read_rowdata_packet()
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1270, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1412, 'Table definition has changed, please retry transaction')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in get_snapshot
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib64/python3.6/inspect.py", line 1269, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib64/python3.6/inspect.py", line 1266, in convert
+    return formatarg(name) + formatvalue(locals[name])
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in <lambda>
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib64/python3.6/reprlib.py", line 55, in repr
+    return self.repr1(x, self.maxlevel)
+  File "/usr/lib64/python3.6/pydoc.py", line 1035, in repr1
+    return cram(stripid(repr(x)), self.maxother)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 1360, in __repr__
+    docstatus = f" docstatus={self.docstatus}" if self.docstatus else ""
+AttributeError: 'User' object has no attribute 'docstatus'
+2021-09-02 06:50:54,785 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","like","%ART%"],["DocType","name","=","Communication Link"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
+Traceback (most recent call last):
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 128, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/auth.py", line 32, in __init__
+    self.set_session()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/auth.py", line 69, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/auth.py", line 122, in __init__
+    self.make_session(resume=True)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/auth.py", line 206, in make_session
+    full_name=self.full_name, user_type=self.user_type)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/sessions.py", line 189, in __init__
+    self.resume()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/sessions.py", line 255, in resume
+    validate_ip_address(self.user)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/auth.py", line 390, in validate_ip_address
+    user = frappe.get_cached_doc("User", user) if not frappe.flags.in_test else frappe.get_doc("User", user)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 807, in get_cached_doc
+    doc = get_doc(*args, **kwargs)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 850, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 75, in get_doc
+    return controller(*args, **kwargs)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 113, in __init__
+    self.load_from_db()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 142, in load_from_db
+    if not getattr(self, "_metaclass", False) and self.meta.issingle:
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/base_document.py", line 91, in meta
+    self._meta = frappe.get_meta(self.doctype)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 881, in get_meta
+    return frappe.model.meta.get_meta(doctype, cached=cached)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 37, in get_meta
+    meta = Meta(doctype)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 84, in __init__
+    self.process()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 105, in process
+    self.set_custom_permissions()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 420, in set_custom_permissions
+    filters=dict(parent=self.name), update=dict(doctype='Custom DocPerm'))
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 1433, in get_all
+    return get_list(doctype, *args, **kwargs)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 1406, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 106, in execute
+    result = self.build_and_run()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 123, in build_and_run
+    args = self.prepare_args()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 151, in prepare_args
+    self.build_conditions()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 376, in build_conditions
+    self.build_filter_conditions(self.filters, self.conditions)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 397, in build_filter_conditions
+    conditions.append(self.prepare_filter_condition(f))
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 405, in prepare_filter_condition
+    additional_filters_config = get_additional_filters_from_hooks()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/boot.py", line 306, in get_additional_filters_from_hooks
+    filter_hooks = frappe.get_hooks('filters_config')
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 1072, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 1048, in load_app_hooks
+    for app in [app_name] if app_name else get_installed_apps(sort=True):
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 1012, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 713, in get_global
+    return self.get_default(key, user)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 717, in get_default
+    d = self.get_defaults(key, parent)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 735, in get_defaults
+    defaults = frappe.defaults.get_defaults(parent)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/defaults.py", line 77, in get_defaults
+    globald = get_defaults_for()
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/defaults.py", line 204, in get_defaults_for
+    where parent = %s order by creation""", (parent,), as_dict=1)
+  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 145, in sql
+    self._cursor.execute(query, values)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1163, in read
+    self._read_result_packet(first_packet)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1236, in _read_result_packet
+    self._read_rowdata_packet()
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1270, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/opt/bench/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1412, 'Table definition has changed, please retry transaction')
 
 During handling of the above exception, another exception occurred:
 

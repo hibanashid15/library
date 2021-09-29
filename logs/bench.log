@@ -568,3 +568,1473 @@
 2021-09-14 07:28:41,280 INFO /home/erpnext/.local/bin/bench worker --queue short
 2021-09-14 07:28:41,281 INFO /home/erpnext/.local/bin/bench worker --queue long
 2021-09-14 07:28:41,283 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 11:08:24,451 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 11:08:41,838 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 11:08:41,847 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 11:08:41,974 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 11:08:42,034 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 11:13:15,066 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 11:13:15,069 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 11:13:15,219 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 11:13:15,247 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 11:35:24,174 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 11:35:24,194 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 11:35:24,199 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 11:35:24,348 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 11:39:07,257 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 11:39:07,407 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 11:39:07,413 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 11:39:07,432 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 11:40:47,831 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 11:40:47,833 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 11:40:48,020 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 11:40:48,021 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 11:51:04,766 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 11:51:04,766 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 11:51:04,766 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 11:51:04,767 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 11:54:29,977 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 11:54:30,128 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 11:54:30,133 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 11:54:30,134 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 12:00:01,579 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-14 12:02:25,360 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 12:02:25,403 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 12:02:25,474 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 12:02:25,523 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 12:09:24,153 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 12:09:24,241 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 12:09:24,285 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 12:09:24,289 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 12:12:06,177 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 12:12:06,230 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 12:12:06,287 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 12:12:06,333 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 12:18:18,076 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 12:18:18,078 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 12:18:18,079 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 12:18:18,081 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 12:25:14,397 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 12:25:14,397 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 12:25:14,421 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 12:25:14,424 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 12:27:32,651 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 12:27:32,732 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 12:27:32,768 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 12:27:32,812 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 12:29:22,031 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 12:29:22,071 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 12:29:22,086 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 12:29:22,114 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 12:30:56,565 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 12:30:56,596 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 12:30:56,597 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 12:30:56,616 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 12:53:26,810 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 12:53:26,868 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 12:53:26,990 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 12:53:27,054 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 12:55:48,671 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-14 12:55:48,671 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-14 12:55:48,672 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-14 12:55:48,678 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-14 18:00:01,555 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-15 00:00:01,908 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-15 04:56:07,670 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 04:56:07,670 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 04:56:07,670 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 04:56:07,671 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 04:58:55,849 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 04:58:55,851 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 04:58:55,855 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 04:58:55,955 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 05:41:23,106 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 05:41:23,107 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 05:41:23,106 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 05:41:23,114 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 05:49:42,095 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 05:49:42,193 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 05:49:42,231 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 05:49:42,259 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 05:58:07,114 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 05:58:07,115 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 05:58:07,118 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 05:58:07,120 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 06:00:01,272 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-15 06:06:46,861 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 06:06:46,956 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 06:06:47,063 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 06:06:47,081 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 06:20:29,020 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 06:20:29,040 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 06:20:29,111 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 06:20:29,113 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 06:22:24,840 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 06:22:24,890 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 06:22:24,967 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 06:22:25,044 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 09:55:03,315 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 09:55:03,327 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 09:55:03,337 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 09:55:03,340 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 09:55:43,126 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 09:55:43,153 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 09:55:43,167 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 09:55:43,324 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 09:58:06,801 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 09:58:06,811 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 09:58:06,897 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 09:58:06,957 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 09:59:25,372 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 09:59:25,376 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 09:59:25,491 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 09:59:25,498 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 11:43:33,874 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 11:43:33,876 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 11:43:33,877 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 11:43:33,917 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 11:53:41,007 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 11:53:41,016 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 11:53:41,147 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 11:53:41,155 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 11:55:33,672 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 11:55:33,677 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 11:55:33,776 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 11:55:33,788 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 12:00:01,436 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-15 12:50:13,369 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-15 12:50:13,430 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-15 12:50:13,432 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-15 12:50:13,434 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-15 18:00:02,162 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-16 00:00:03,112 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-16 05:30:54,291 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-16 05:30:54,295 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-16 05:30:54,297 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-16 05:30:54,297 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-16 05:45:13,768 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-16 05:45:13,768 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-16 05:45:13,775 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-16 05:45:13,775 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-16 06:00:04,615 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-16 06:28:23,571 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-16 06:28:23,571 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-16 06:28:23,572 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-16 06:28:23,572 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-16 06:32:07,366 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-16 06:32:07,400 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-16 06:32:07,478 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-16 06:32:07,482 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-16 06:36:18,822 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-16 06:36:18,850 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-16 06:36:18,849 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-16 06:36:18,881 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-16 09:00:17,049 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-16 09:00:17,050 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-16 09:00:17,050 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-16 09:00:17,050 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-16 09:03:28,808 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-16 09:03:28,900 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-16 09:03:28,901 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-16 09:03:28,936 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-16 09:07:02,724 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-16 09:07:02,734 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-16 09:07:02,924 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-16 09:07:02,944 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-16 09:08:09,163 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-16 09:08:09,245 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-16 09:08:09,255 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-16 09:08:09,266 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-16 09:10:05,642 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-16 09:10:05,793 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-16 09:10:05,799 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-16 09:10:05,812 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-16 09:14:35,661 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-16 09:14:35,702 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-16 09:14:35,807 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-16 09:14:35,832 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-16 09:18:24,596 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-16 09:18:24,603 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-16 09:18:24,688 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-16 09:18:24,697 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-16 09:24:18,845 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-16 09:24:18,848 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-16 09:24:18,852 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-16 09:24:18,859 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-16 09:28:05,400 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-16 09:28:05,402 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-16 09:28:05,445 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-16 09:28:05,452 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-16 09:34:35,192 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-16 09:34:35,219 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-16 09:34:35,324 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-16 09:34:35,332 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-16 12:00:04,881 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-16 18:00:03,384 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-17 00:00:03,838 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-17 06:00:03,231 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-17 12:00:02,301 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-17 18:00:02,963 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-18 00:00:03,695 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-18 06:00:04,743 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-18 12:00:04,167 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-18 18:00:02,781 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-19 00:00:06,800 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-19 05:34:48,723 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 05:34:48,725 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 05:34:48,724 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 05:34:48,734 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 05:53:32,670 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 05:53:51,351 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 05:53:51,366 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 05:53:51,374 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 05:53:51,456 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 06:00:01,814 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-19 07:00:49,299 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 07:00:49,325 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 07:00:49,329 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 07:00:49,342 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 07:08:46,605 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 07:08:46,608 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 07:08:46,686 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 07:08:46,707 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 07:12:33,041 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 07:12:33,052 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 07:12:33,115 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 07:12:33,193 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 08:33:49,493 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 08:33:49,493 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 08:33:49,498 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 08:33:49,522 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 08:34:43,691 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 08:34:43,802 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 08:34:43,810 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 08:34:43,838 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 08:53:05,527 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 08:53:05,531 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 08:53:05,598 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 08:53:05,605 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 08:58:36,019 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 08:58:36,045 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 08:58:36,049 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 08:58:36,120 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 09:02:50,143 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 09:02:50,393 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 09:02:50,404 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 09:02:50,429 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 09:05:25,527 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 09:05:25,559 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 09:05:25,590 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 09:05:25,612 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 09:12:18,940 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 09:12:18,955 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 09:12:19,058 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 09:12:19,055 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 09:21:33,249 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 09:21:33,249 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 09:21:33,254 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 09:21:33,266 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 09:57:29,761 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 09:57:29,826 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 09:57:29,822 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 09:57:29,867 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 10:32:46,088 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 10:32:46,195 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 10:32:46,219 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 10:32:46,273 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 10:33:59,684 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 10:33:59,727 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 10:33:59,796 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 10:33:59,834 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 10:36:01,839 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 10:36:01,855 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 10:36:01,950 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 10:36:01,953 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 10:38:33,348 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 10:38:33,358 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 10:38:33,374 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 10:38:33,433 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 10:43:12,936 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 10:43:13,065 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 10:43:13,091 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 10:43:13,202 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 11:12:27,198 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 11:12:27,282 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 11:12:27,424 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 11:12:27,584 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 11:20:01,835 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 11:20:01,837 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 11:20:01,844 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 11:20:01,870 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 11:20:44,398 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 11:20:44,405 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 11:20:44,470 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 11:20:44,500 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 11:27:24,702 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 11:27:24,710 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 11:27:24,761 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 11:27:24,767 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 11:29:41,778 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 11:29:41,838 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 11:29:41,985 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 11:29:42,077 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 11:30:55,958 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 11:30:56,020 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 11:30:56,055 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 11:30:56,072 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 11:32:01,878 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 11:32:02,134 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 11:32:02,136 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 11:32:02,222 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 11:46:45,126 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 11:46:45,466 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 11:46:45,498 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 11:46:45,508 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 11:48:21,665 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 11:48:21,681 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 11:48:21,915 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 11:48:21,920 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 11:49:25,625 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 11:49:25,705 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 11:49:25,771 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 11:49:25,935 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 12:00:02,271 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-19 12:21:06,587 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 12:21:06,589 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 12:21:06,592 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 12:21:06,593 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 12:56:07,524 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-19 12:56:07,526 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-19 12:56:07,527 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-19 12:56:07,528 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-19 18:00:01,640 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-20 00:00:01,695 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-20 05:11:27,374 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 05:11:27,375 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 05:11:27,375 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 05:11:27,378 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 05:42:08,044 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 05:42:08,050 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 05:42:08,056 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 05:42:08,067 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 05:44:14,707 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 05:44:14,707 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 05:44:14,718 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 05:44:14,721 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 05:52:39,817 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 05:52:39,819 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 05:52:39,819 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 05:52:39,820 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 05:54:47,615 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 05:54:47,668 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 05:54:47,772 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 05:54:47,781 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 06:00:01,775 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-20 06:06:19,831 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 06:06:41,980 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 06:06:42,003 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 06:06:42,033 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 06:06:42,088 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 06:08:57,435 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 06:08:57,469 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 06:08:57,478 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 06:08:57,526 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 06:21:21,441 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 06:21:21,448 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 06:21:21,514 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 06:21:21,598 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 06:22:41,126 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 06:22:41,130 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 06:22:41,287 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 06:22:41,293 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 06:27:17,220 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 06:27:17,228 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 06:27:17,380 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 06:27:17,410 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 06:28:41,319 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 06:28:41,336 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 06:28:41,493 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 06:28:41,492 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 06:38:44,566 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 06:38:44,570 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 06:38:44,576 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 06:38:44,580 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 06:43:08,910 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 06:43:08,916 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 06:43:09,046 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 06:43:09,052 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 06:47:32,352 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 06:47:32,356 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 06:47:32,391 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 06:47:32,581 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 06:49:29,717 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 06:49:29,800 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 06:49:29,792 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 06:49:29,844 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 06:52:52,264 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 06:52:52,304 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 06:52:52,309 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 06:52:52,347 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 06:53:42,837 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 06:53:42,835 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 06:53:42,875 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 06:53:42,908 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 06:57:42,638 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 06:57:42,639 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 06:57:42,638 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 06:57:42,641 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 07:07:43,748 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 07:07:43,749 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 07:07:43,757 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 07:07:43,764 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 07:07:52,044 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 07:07:52,054 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 07:07:52,145 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 07:07:52,152 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 08:24:53,195 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 08:24:53,230 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 08:24:53,233 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 08:24:53,275 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 08:47:58,426 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 08:47:58,610 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 08:47:58,631 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 08:47:58,637 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 08:48:19,720 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 08:48:19,767 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 08:48:19,768 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 08:48:19,817 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 09:22:15,985 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 09:22:15,987 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 09:22:15,987 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 09:22:15,989 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 09:29:47,938 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 09:29:48,279 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 09:29:48,280 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 09:29:48,387 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 09:36:32,125 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 09:36:32,129 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 09:36:32,134 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 09:36:32,305 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 09:38:53,999 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 09:38:54,024 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 09:38:54,122 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 09:38:54,181 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 09:40:40,661 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 09:40:40,666 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 09:40:40,673 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 09:40:40,697 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 09:53:17,634 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 09:53:17,752 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 09:53:17,832 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 09:53:17,861 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 09:54:09,746 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 09:54:09,749 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 09:54:09,852 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 09:54:09,885 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 09:55:08,540 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 09:55:08,538 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 09:55:08,632 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 09:55:08,643 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 09:58:00,227 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 09:58:00,248 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 09:58:00,350 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 09:58:00,408 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 10:14:55,174 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 10:14:55,174 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 10:14:55,177 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 10:14:55,177 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 10:16:13,439 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 10:16:13,445 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 10:16:13,540 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 10:16:13,548 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 10:19:13,928 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 10:19:13,934 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 10:19:14,035 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 10:19:14,042 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 10:22:56,911 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 10:22:56,911 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 10:22:56,946 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 10:22:57,021 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 10:25:09,515 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 10:25:09,553 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 10:25:09,643 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 10:25:09,790 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 11:42:05,362 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 11:42:05,369 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 11:42:05,371 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 11:42:05,377 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 12:00:01,829 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-20 12:09:28,322 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 12:09:28,327 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 12:09:28,406 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 12:09:28,441 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 12:11:22,291 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 12:11:22,308 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 12:11:22,364 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 12:11:22,374 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 12:12:33,064 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 12:12:33,107 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 12:12:33,141 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 12:12:33,147 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 12:15:24,382 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 12:15:24,426 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 12:15:24,591 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 12:15:24,627 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 12:16:22,251 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 12:16:22,256 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 12:16:22,341 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 12:16:22,349 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 12:26:42,598 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 12:26:42,648 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 12:26:42,708 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 12:26:42,841 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 12:37:27,638 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 12:37:27,639 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 12:37:27,639 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 12:37:27,641 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 12:54:33,854 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 12:54:33,881 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 12:54:33,947 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 12:54:34,018 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 13:06:46,574 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 13:06:46,590 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 13:06:46,638 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 13:06:46,674 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 13:20:19,490 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-20 13:20:19,512 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-20 13:20:19,698 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-20 13:20:19,702 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-20 18:00:01,477 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-21 00:00:01,786 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-21 04:49:29,844 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 04:49:29,845 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 04:49:29,846 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 04:49:29,844 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 04:50:04,935 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 04:50:05,007 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 04:50:05,092 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 04:50:05,142 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 04:51:52,000 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 04:51:52,014 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 04:51:52,082 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 04:51:52,178 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 06:00:03,179 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-21 06:50:44,429 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 06:50:44,432 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 06:50:44,508 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 06:50:44,563 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 06:53:11,775 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 06:53:11,787 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 06:53:11,810 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 06:53:11,990 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 06:55:56,236 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 06:55:56,352 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 06:55:56,370 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 06:55:56,381 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 07:13:20,039 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 07:13:20,260 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 07:13:20,337 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 07:13:20,352 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 07:19:26,192 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 07:19:26,292 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 07:19:26,320 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 07:19:26,327 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 07:21:36,622 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 07:21:36,691 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 07:21:36,692 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 07:21:36,699 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 07:24:11,145 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 07:24:11,282 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 07:24:11,288 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 07:24:11,299 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 07:28:11,331 INFO /home/erpnext/.local/bin/bench mariadb
+2021-09-21 07:33:05,572 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 07:33:05,605 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 07:33:05,651 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 07:33:05,694 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 07:36:52,644 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 07:36:52,695 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 07:36:52,703 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 07:36:52,708 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 07:37:43,724 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 07:37:43,750 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 07:37:43,791 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 07:37:43,864 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 07:40:03,558 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 07:40:03,682 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 07:40:03,692 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 07:40:03,695 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 07:46:55,566 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 07:46:55,582 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 07:46:55,739 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 07:46:55,744 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 07:48:52,082 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 07:48:52,131 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 07:48:52,168 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 07:48:52,224 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 07:51:22,578 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 07:51:22,578 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 07:51:22,586 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 07:51:22,591 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 07:54:11,663 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 07:54:11,802 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 07:54:11,882 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 07:54:11,887 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 07:55:20,439 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 07:55:20,447 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 07:55:20,453 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 07:55:20,537 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 07:56:50,942 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 07:56:50,952 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 07:56:51,118 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 07:56:51,123 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:01:22,178 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:01:22,240 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:01:22,285 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:01:22,289 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:02:19,559 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:02:19,561 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:02:19,649 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:02:19,720 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:03:07,124 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:03:07,133 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:03:07,128 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:03:07,284 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:06:06,138 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:06:06,156 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:06:06,157 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:06:06,168 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:10:33,098 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:10:33,211 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:10:33,238 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:10:33,265 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:14:49,906 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:14:49,973 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:14:50,127 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:14:50,158 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:16:28,211 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:16:28,213 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:16:28,281 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:16:28,318 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:18:01,043 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:18:01,067 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:18:01,354 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:18:01,378 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:18:38,256 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:18:38,274 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:18:38,351 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:18:38,381 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:27:56,588 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:27:56,627 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:27:56,646 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:27:56,649 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:29:47,291 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:29:47,292 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:29:47,439 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:29:47,452 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:30:35,463 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:30:35,466 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:30:35,472 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:30:35,569 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:34:54,341 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:34:54,442 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:34:54,448 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:34:54,451 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:36:29,996 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:36:30,023 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:36:30,138 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:36:30,163 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:37:18,187 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:37:18,199 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:37:18,228 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:37:18,230 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:43:06,812 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:43:06,846 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:43:06,857 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:43:06,983 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:44:34,144 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:44:34,147 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:44:34,187 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:44:34,190 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:45:15,985 INFO /home/erpnext/.local/bin/bench mariadb
+2021-09-21 08:47:25,431 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:47:25,581 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:47:25,622 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:47:25,655 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:48:16,142 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:48:16,247 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:48:16,280 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:48:16,290 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 08:49:16,547 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 08:49:16,554 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 08:49:16,559 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 08:49:16,733 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 10:55:09,151 INFO /home/erpnext/.local/bin/bench mariadb
+2021-09-21 11:37:59,751 INFO /home/erpnext/.local/bin/bench console
+2021-09-21 12:00:02,203 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-21 12:29:20,906 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 12:29:20,912 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 12:29:20,917 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 12:29:20,919 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 12:29:23,553 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 12:29:23,619 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 12:29:23,716 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 12:29:23,754 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 12:30:57,602 INFO /home/erpnext/.local/bin/bench console
+2021-09-21 12:32:09,764 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 12:32:09,784 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 12:32:09,910 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 12:32:09,915 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 12:33:51,598 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 12:33:51,613 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 12:33:51,672 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 12:33:51,678 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 12:35:18,544 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 12:35:18,624 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 12:35:18,743 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 12:35:18,760 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 12:37:29,621 INFO /home/erpnext/.local/bin/bench mariadb
+2021-09-21 12:42:16,064 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 12:42:16,080 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 12:42:16,210 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 12:42:16,221 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 12:52:31,654 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-21 12:52:31,664 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-21 12:52:31,725 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-21 12:52:31,750 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-21 18:00:01,653 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-22 00:00:01,462 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-22 02:27:59,489 INFO /home/erpnext/.local/bin/bench console
+2021-09-22 02:33:03,440 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-22 02:33:03,441 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-22 02:33:03,446 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-22 02:33:03,455 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-22 02:33:33,759 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-22 02:33:33,776 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-22 02:33:33,835 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-22 02:33:33,845 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-22 02:44:28,830 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-22 02:44:28,843 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-22 02:44:28,869 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-22 02:44:28,914 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-22 02:45:02,610 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-22 02:45:02,639 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-22 02:45:02,714 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-22 02:45:02,721 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-22 03:01:29,794 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-22 03:01:29,795 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-22 03:01:29,800 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-22 03:01:29,802 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-22 06:00:04,884 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-22 12:00:04,831 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-22 18:00:03,161 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-23 00:00:03,115 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-23 06:00:03,504 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-23 06:47:54,063 INFO /home/erpnext/.local/bin/bench mariadb
+2021-09-23 06:48:27,452 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 06:49:09,511 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 06:49:09,540 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-23 06:49:09,595 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 06:49:09,628 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 06:49:17,180 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-23 06:49:17,186 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 06:49:17,212 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 06:49:17,217 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 07:19:15,622 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-23 07:19:15,625 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 07:19:15,628 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 07:19:15,630 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 07:38:00,043 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 07:38:00,044 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-23 07:38:00,098 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 07:38:00,124 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 07:40:00,732 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 07:40:00,773 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-23 07:40:00,822 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 07:40:00,838 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 07:42:19,129 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-23 07:42:19,162 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 07:42:19,208 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 07:42:19,231 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 08:41:42,516 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 08:41:42,600 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 08:41:42,619 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 08:41:42,661 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-23 08:44:20,184 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 08:44:20,202 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 08:44:20,368 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-23 08:44:20,400 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 08:48:16,425 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 08:48:16,437 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 08:48:16,443 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 08:48:16,475 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-23 09:23:32,572 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 09:23:32,573 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 09:23:32,576 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 09:23:32,576 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-23 09:54:03,805 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 09:54:03,836 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 09:54:03,847 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 09:54:03,878 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-23 09:54:14,534 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 09:54:14,546 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 09:54:14,550 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-23 09:54:14,557 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 12:00:03,088 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-23 17:40:15,731 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-23 17:40:15,734 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 17:40:15,736 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 17:40:15,739 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 17:48:58,710 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 17:48:58,730 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 17:48:58,733 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 17:48:58,747 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-23 17:49:37,133 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 17:49:37,135 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-23 17:49:37,142 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 17:49:37,196 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 18:00:01,289 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-23 21:41:08,620 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-23 21:41:08,621 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-23 21:41:08,622 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-23 21:41:08,623 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 00:00:04,210 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-24 05:18:12,003 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 05:18:12,006 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 05:18:12,007 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 05:18:12,009 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 05:18:21,163 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 05:18:21,163 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 05:18:21,231 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 05:18:21,262 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 05:40:18,103 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 05:40:18,104 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 05:40:18,104 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 05:40:18,105 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 05:42:39,516 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 05:42:39,522 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 05:42:39,548 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 05:42:39,551 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 05:43:26,722 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 05:43:26,730 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 05:43:26,730 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 05:43:26,766 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 05:44:33,120 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 05:44:33,142 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 05:44:33,154 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 05:44:33,213 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 05:47:36,705 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 05:47:36,706 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 05:47:36,706 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 05:47:36,726 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 05:48:28,447 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 05:48:28,450 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 05:48:28,485 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 05:48:28,523 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 05:50:27,789 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 05:50:27,790 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 05:50:27,790 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 05:50:27,794 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 05:53:15,435 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 05:53:15,437 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 05:53:15,437 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 05:54:35,571 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 05:54:35,574 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 05:54:35,590 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 05:54:35,594 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 05:54:42,363 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 05:54:42,392 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 05:54:42,431 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 05:54:42,456 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 05:56:15,619 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 05:56:15,622 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 05:56:15,626 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 05:56:15,632 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 05:56:17,855 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 05:56:17,897 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 05:56:17,953 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 05:56:17,956 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 05:57:50,574 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 05:57:50,579 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 05:57:50,582 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 05:57:50,582 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 06:00:06,239 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-24 06:00:36,301 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 06:00:36,302 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 06:00:36,331 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 06:00:36,329 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 06:00:43,374 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 06:00:43,394 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 06:00:43,441 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 06:00:43,455 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 06:34:00,962 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 06:34:00,963 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 06:34:00,964 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 06:34:00,966 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 06:34:03,788 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 06:34:03,843 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 06:34:03,853 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 06:34:03,919 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 06:38:18,733 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 06:38:18,733 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 06:38:18,733 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 06:38:18,734 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 06:43:13,950 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 06:43:13,950 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 06:43:13,949 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 06:43:13,950 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 06:45:34,486 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 06:45:34,486 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 06:45:34,491 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 06:45:34,491 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 08:58:23,883 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 08:58:23,883 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 08:58:23,884 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 08:58:23,885 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 08:58:50,460 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 08:58:50,467 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 08:58:50,473 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 08:58:50,491 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 09:20:14,154 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 09:20:14,156 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 09:20:14,154 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 09:20:14,154 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 09:26:03,660 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 09:26:03,661 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 09:26:03,662 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 09:26:03,662 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 09:26:35,849 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 09:26:35,885 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 09:26:35,940 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 09:26:35,952 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 10:23:49,675 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 10:23:49,675 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 10:23:49,676 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 10:23:49,677 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 10:39:16,519 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 10:39:16,521 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 10:39:16,521 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 10:39:16,523 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 10:43:14,796 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 10:43:14,810 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 10:43:14,823 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 10:43:14,829 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 10:45:18,088 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 10:45:18,150 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 10:45:18,156 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 10:45:18,157 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 10:48:57,849 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 10:48:57,850 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 10:48:57,854 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 10:48:57,853 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 10:58:03,050 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-24 10:58:03,054 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-24 10:58:03,065 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-24 10:58:03,065 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-24 12:00:03,202 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-24 18:00:04,545 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-25 00:00:02,811 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-25 06:00:03,216 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-25 12:00:02,942 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-25 18:00:03,297 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-26 00:00:02,588 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-26 04:59:14,333 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 04:59:14,334 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 04:59:14,336 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 04:59:14,333 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 06:00:04,597 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-26 08:03:39,717 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 08:03:39,731 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 08:03:39,753 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 08:03:39,812 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 08:03:47,195 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 08:03:47,282 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 08:03:47,313 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 08:03:47,391 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 08:11:54,471 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 08:11:54,472 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 08:11:54,472 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 08:11:54,476 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 08:13:39,562 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 08:13:39,566 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 08:13:39,568 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 08:13:39,569 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 08:15:38,917 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 08:15:38,917 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 08:15:38,918 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 08:15:38,918 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 08:18:07,456 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 08:18:07,616 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 08:18:07,626 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 08:18:07,634 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 08:42:30,102 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 08:42:30,103 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 08:42:30,108 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 08:42:30,103 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 08:47:11,994 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 08:47:12,005 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 08:47:12,014 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 08:47:12,051 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 08:51:35,116 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 08:51:35,163 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 08:51:35,265 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 08:51:35,292 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 08:54:01,946 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 08:54:02,016 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 08:54:02,022 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 08:54:02,076 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 08:55:24,851 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 08:55:24,864 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 08:55:24,903 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 08:55:24,912 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 08:56:35,763 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 08:56:35,778 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 08:56:35,782 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 08:56:35,791 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 08:58:20,646 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 08:58:20,742 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 08:58:20,755 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 08:58:20,763 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 08:59:14,499 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 08:59:14,517 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 08:59:14,598 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 08:59:14,611 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 09:07:31,318 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 09:07:31,355 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 09:07:31,366 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 09:07:31,397 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 09:25:54,563 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 09:25:54,570 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 09:25:54,575 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 09:25:54,577 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 09:32:56,503 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 09:32:56,505 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 09:32:56,515 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 09:32:56,515 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 09:39:36,773 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 09:39:36,797 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 09:39:36,859 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 09:39:36,862 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 09:40:35,458 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 09:40:35,516 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 09:40:35,548 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 09:40:35,559 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 09:41:34,526 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 09:41:34,554 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 09:41:34,579 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 09:41:34,600 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 09:42:25,685 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 09:42:25,689 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 09:42:25,722 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 09:42:25,726 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 09:44:09,427 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 09:44:09,449 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 09:44:09,454 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 09:44:09,508 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 09:46:51,425 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 09:46:51,461 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 09:46:51,467 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 09:46:51,490 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 09:52:15,617 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 09:52:15,618 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 09:52:15,617 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 09:52:15,618 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 09:54:06,172 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 09:54:06,180 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 09:54:06,235 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 09:54:06,263 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 09:55:51,937 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 09:55:52,075 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 09:55:52,151 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 09:55:52,165 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 09:57:48,839 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 09:57:48,839 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 09:57:48,840 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 09:57:48,841 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 09:59:43,333 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 09:59:43,336 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 09:59:43,356 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 09:59:43,358 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 10:00:49,982 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 10:00:49,987 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 10:00:49,993 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 10:00:49,993 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 10:07:54,272 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 10:07:54,305 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 10:07:54,308 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 10:07:54,325 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 10:13:39,398 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 10:13:39,398 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 10:13:39,399 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 10:13:39,400 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 10:36:30,901 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 10:36:30,901 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 10:36:30,903 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 10:36:30,904 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 10:43:10,576 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 10:43:10,586 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 10:43:10,603 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 10:43:10,651 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 10:47:08,720 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 10:47:08,763 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 10:47:08,764 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 10:47:08,779 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 10:47:16,742 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 10:47:16,745 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 10:47:16,811 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 10:47:16,811 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 10:49:34,547 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 10:49:34,548 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 10:49:34,555 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 10:49:34,556 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 10:51:26,545 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-26 10:51:26,551 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-26 10:51:26,558 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-26 10:51:26,633 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-26 12:00:02,005 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-26 18:00:03,584 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-27 00:00:02,827 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-27 01:07:00,699 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 01:07:00,700 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 01:07:00,700 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 01:07:00,701 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 01:34:00,210 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 01:34:00,210 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 01:34:00,210 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 01:34:00,210 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 01:46:34,649 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 01:46:34,650 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 01:46:34,656 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 01:46:34,662 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:28:59,801 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:28:59,800 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:28:59,801 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:28:59,804 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:34:04,982 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:34:04,993 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:34:05,033 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:34:05,069 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:35:39,739 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:35:39,751 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:35:39,841 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:35:39,848 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:38:21,578 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:38:21,590 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:38:21,601 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:38:21,612 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:39:24,002 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:39:24,033 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:39:24,057 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:39:24,130 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:47:29,932 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:47:29,966 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:47:29,985 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:47:30,032 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:48:06,345 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:48:06,365 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:48:06,374 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:48:06,382 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:49:18,959 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:49:18,963 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:49:19,005 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:49:19,005 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:52:11,785 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:52:11,800 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:52:11,805 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:52:11,808 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:52:55,275 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:52:55,487 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:52:55,557 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:52:55,573 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:53:33,270 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:53:33,290 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:53:33,346 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:53:33,437 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:53:40,212 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:53:40,239 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:53:40,286 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:53:40,291 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:54:59,461 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:54:59,609 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:54:59,723 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:54:59,726 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:55:53,563 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:55:53,568 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:55:53,603 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:55:53,614 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:56:43,306 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:56:43,342 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:56:43,346 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:56:43,347 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:57:42,419 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:57:42,445 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 02:57:42,461 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:57:42,475 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:58:20,072 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 02:58:20,077 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 02:58:20,083 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 02:58:20,115 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 03:02:43,817 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 03:02:43,854 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 03:02:43,858 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 03:02:43,864 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 04:11:24,247 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 04:11:24,248 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 04:11:24,249 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 04:11:24,249 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 04:21:41,879 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 04:21:41,882 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 04:21:41,892 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 04:21:41,905 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 04:26:04,743 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 04:26:04,780 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 04:26:04,785 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 04:26:04,816 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 04:42:42,007 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 04:42:42,008 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 04:42:42,008 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 04:42:42,008 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 04:44:03,208 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 04:44:03,321 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 04:44:03,366 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 04:44:03,372 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 04:47:22,482 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 04:47:22,483 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 04:47:22,483 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 04:47:22,483 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 04:56:23,249 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 04:56:23,249 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 04:56:23,250 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 04:56:23,251 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 05:00:50,430 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 05:00:50,433 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 05:00:50,456 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 05:00:50,508 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 05:09:43,114 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 05:09:43,115 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 05:09:43,125 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 05:09:43,133 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 05:13:24,118 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 05:13:24,208 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 05:13:24,313 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 05:13:24,342 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 06:00:04,066 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-27 08:11:23,838 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 08:11:23,839 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 08:11:23,838 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 08:11:23,852 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 08:16:56,493 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 08:16:56,493 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 08:16:56,493 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 08:16:56,493 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 08:22:41,682 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 08:22:41,683 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 08:22:41,684 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 08:22:41,704 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 08:27:45,884 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 08:27:45,885 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 08:27:45,885 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 08:27:45,886 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 08:32:18,264 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 08:32:18,264 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 08:32:18,266 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 08:32:18,269 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 08:35:36,718 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 08:35:36,718 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 08:35:36,728 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 08:35:36,733 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 08:54:35,251 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 08:54:35,253 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 08:54:35,315 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 08:54:35,345 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 09:58:24,906 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 09:58:24,911 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 09:58:24,922 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 09:58:24,935 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 10:06:03,295 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 10:06:03,297 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 10:06:03,309 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 10:06:03,312 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 10:10:12,884 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 10:10:12,887 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 10:10:12,893 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 10:10:12,901 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 10:12:41,216 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 10:12:41,219 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 10:12:41,221 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 10:12:41,218 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 10:17:19,263 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 10:17:19,264 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 10:17:19,278 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 10:17:19,278 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 10:23:06,333 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-27 10:23:06,437 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-27 10:23:06,492 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-27 10:23:06,496 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-27 12:00:02,208 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-27 18:00:01,543 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-28 00:00:01,992 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-28 05:33:22,190 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 05:33:22,191 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 05:33:22,192 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 05:33:22,202 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 05:40:24,141 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 05:40:24,191 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 05:40:24,193 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 05:40:24,241 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 05:41:08,759 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 05:41:08,762 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 05:41:08,765 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 05:41:08,785 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 05:45:09,146 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 05:45:09,168 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 05:45:09,216 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 05:45:09,244 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 05:47:01,094 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 05:47:01,097 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 05:47:01,108 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 05:47:01,133 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 05:56:46,083 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 05:56:46,084 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 05:56:46,085 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 05:56:46,084 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 06:00:03,328 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-28 06:08:13,887 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 06:08:13,888 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 06:08:13,887 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 06:08:13,890 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 06:12:33,675 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 06:12:33,676 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 06:12:33,676 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 06:12:33,704 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 07:08:38,959 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 07:08:38,960 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 07:08:38,961 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 07:08:38,963 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 08:43:20,513 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 08:43:20,519 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 08:43:20,521 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 08:43:20,529 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 08:53:36,776 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 08:53:36,796 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 08:53:36,804 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 08:53:36,822 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 08:56:40,049 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 08:56:40,051 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 08:56:40,053 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 08:56:40,055 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 09:13:11,877 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 09:13:11,878 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 09:13:11,886 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 09:13:11,893 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 10:00:28,771 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 10:00:28,771 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 10:00:28,773 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 10:00:28,793 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 10:03:50,886 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 10:03:50,890 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 10:03:50,892 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 10:03:50,901 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 10:07:06,024 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 10:07:06,025 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 10:07:06,033 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 10:07:06,030 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 10:09:20,372 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 10:09:20,373 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 10:09:20,382 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 10:09:20,413 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 10:13:43,005 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 10:13:43,010 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 10:13:43,118 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 10:13:43,130 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 10:16:50,176 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 10:16:50,176 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 10:16:50,177 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 10:16:50,210 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 10:21:11,677 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 10:21:11,714 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 10:21:11,729 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 10:21:11,738 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 10:27:39,855 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 10:27:39,881 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 10:27:39,883 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 10:27:39,934 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 10:33:25,585 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 10:33:25,587 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 10:33:25,589 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 10:33:25,589 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 10:40:37,081 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 10:40:37,081 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 10:40:37,081 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 10:40:37,081 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 10:57:03,760 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 10:57:03,819 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 10:57:03,825 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 10:57:03,853 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 10:59:56,663 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 10:59:56,663 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 10:59:56,664 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 10:59:56,663 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:01:13,140 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 11:01:13,173 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:01:13,184 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 11:01:13,246 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 11:03:23,892 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 11:03:23,925 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 11:03:23,991 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 11:03:23,991 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:10:19,962 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 11:10:19,981 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 11:10:19,985 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 11:10:19,989 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:11:26,080 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 11:11:26,147 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 11:11:26,290 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:11:26,314 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 11:12:47,997 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 11:12:48,314 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 11:12:48,317 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 11:12:48,359 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:15:17,841 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 11:15:17,847 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 11:15:17,844 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:15:17,855 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 11:16:53,933 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 11:16:53,937 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 11:16:53,949 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:16:53,957 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 11:19:05,335 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 11:19:05,371 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 11:19:05,581 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:19:05,592 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 11:20:04,509 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:20:04,529 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 11:20:04,552 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 11:20:04,571 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 11:23:35,901 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 11:23:35,978 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 11:23:35,996 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:23:36,005 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 11:25:16,610 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 11:25:16,610 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 11:25:16,610 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:25:16,610 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 11:27:20,233 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 11:27:20,239 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 11:27:20,375 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 11:27:20,378 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:29:05,599 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 11:29:05,599 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 11:29:05,600 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 11:29:05,602 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:30:47,714 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:30:47,736 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 11:30:47,740 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 11:30:47,800 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 11:33:43,635 INFO /home/erpnext/.local/bin/bench schedule
+2021-09-28 11:33:43,635 INFO /home/erpnext/.local/bin/bench worker --queue long
+2021-09-28 11:33:43,636 INFO /home/erpnext/.local/bin/bench worker --queue default
+2021-09-28 11:33:43,636 INFO /home/erpnext/.local/bin/bench worker --queue short
+2021-09-28 12:00:03,873 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-28 18:00:04,558 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2021-09-29 00:00:04,855 INFO /home/erpnext/.local/bin/bench --verbose --site all backup

@@ -1,6 +1,6 @@
-2021-09-02 06:50:53,185 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
+2021-09-02 06:50:53,253 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
 Site: mum125.erpgulf.com
-Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","like","%ART%"],["DocType","name","=","Data Migration Plan Mapping"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
+Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","=","Custom Field"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
 Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 54, in application
     init_request(request)
@@ -76,9 +76,9 @@ Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 1360, in __repr__
     docstatus = f" docstatus={self.docstatus}" if self.docstatus else ""
 AttributeError: 'User' object has no attribute 'docstatus'
-2021-09-02 06:50:53,382 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
+2021-09-02 06:50:53,581 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
 Site: mum125.erpgulf.com
-Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","=","Web Template"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
+Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","like","%ART%"],["DocType","name","=","Dashboard Chart"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
 Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 54, in application
     init_request(request)
@@ -154,9 +154,9 @@ Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 1360, in __repr__
     docstatus = f" docstatus={self.docstatus}" if self.docstatus else ""
 AttributeError: 'User' object has no attribute 'docstatus'
-2021-09-02 06:50:53,593 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
+2021-09-02 06:50:53,842 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
 Site: mum125.erpgulf.com
-Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","like","%ART%"],["DocType","name","=","Onboarding Permission"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
+Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","=","Data Migration Mapping Detail"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
 Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 54, in application
     init_request(request)
@@ -232,9 +232,9 @@ Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 1360, in __repr__
     docstatus = f" docstatus={self.docstatus}" if self.docstatus else ""
 AttributeError: 'User' object has no attribute 'docstatus'
-2021-09-02 06:50:53,784 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
+2021-09-02 06:50:54,126 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
 Site: mum125.erpgulf.com
-Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","like","%ART%"],["DocType","name","=","Onboarding Step Map"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
+Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","=","Data Migration Plan Mapping"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
 Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 54, in application
     init_request(request)
@@ -310,159 +310,480 @@ Traceback (most recent call last):
   File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 1360, in __repr__
     docstatus = f" docstatus={self.docstatus}" if self.docstatus else ""
 AttributeError: 'User' object has no attribute 'docstatus'
-2021-09-02 06:50:54,010 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
+2021-09-04 11:04:53,869 ERROR frappe New Exception collected with id: 2021-09-04 11:04:53.700183-8.17.206.93-e3c
 Site: mum125.erpgulf.com
-Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","like","%ART%"],["DocType","name","=","Workspace Link"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
-Traceback (most recent call last):
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 54, in application
-    init_request(request)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 128, in init_request
-    frappe.local.http_request = frappe.auth.HTTPRequest()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/auth.py", line 32, in __init__
-    self.set_session()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/auth.py", line 69, in set_session
-    frappe.local.login_manager = LoginManager()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/auth.py", line 122, in __init__
-    self.make_session(resume=True)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/auth.py", line 206, in make_session
-    full_name=self.full_name, user_type=self.user_type)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/sessions.py", line 189, in __init__
-    self.resume()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/sessions.py", line 255, in resume
-    validate_ip_address(self.user)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/auth.py", line 390, in validate_ip_address
-    user = frappe.get_cached_doc("User", user) if not frappe.flags.in_test else frappe.get_doc("User", user)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 807, in get_cached_doc
-    doc = get_doc(*args, **kwargs)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 850, in get_doc
-    doc = frappe.model.document.get_doc(*args, **kwargs)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 75, in get_doc
-    return controller(*args, **kwargs)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 113, in __init__
-    self.load_from_db()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 142, in load_from_db
-    if not getattr(self, "_metaclass", False) and self.meta.issingle:
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/base_document.py", line 91, in meta
-    self._meta = frappe.get_meta(self.doctype)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 881, in get_meta
-    return frappe.model.meta.get_meta(doctype, cached=cached)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 37, in get_meta
-    meta = Meta(doctype)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 84, in __init__
-    self.process()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 105, in process
-    self.set_custom_permissions()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 420, in set_custom_permissions
-    filters=dict(parent=self.name), update=dict(doctype='Custom DocPerm'))
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 1433, in get_all
-    return get_list(doctype, *args, **kwargs)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 1406, in get_list
-    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 101, in execute
-    self.columns = self.get_table_columns()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 338, in get_table_columns
-    return get_table_columns(self.doctype)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 49, in get_table_columns
-    return frappe.db.get_table_columns(doctype)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 894, in get_table_columns
-    raise self.TableMissingError('DocType', doctype)
-pymysql.err.ProgrammingError: ('DocType', 'Custom DocPerm')
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
-    snapshot = get_snapshot(exception)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in get_snapshot
-    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
-  File "/usr/lib64/python3.6/inspect.py", line 1269, in formatargvalues
-    specs.append(convert(args[i]))
-  File "/usr/lib64/python3.6/inspect.py", line 1266, in convert
-    return formatarg(name) + formatvalue(locals[name])
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in <lambda>
-    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
-  File "/usr/lib64/python3.6/reprlib.py", line 55, in repr
-    return self.repr1(x, self.maxlevel)
-  File "/usr/lib64/python3.6/pydoc.py", line 1035, in repr1
-    return cram(stripid(repr(x)), self.maxother)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 1360, in __repr__
-    docstatus = f" docstatus={self.docstatus}" if self.docstatus else ""
-AttributeError: 'User' object has no attribute 'docstatus'
-2021-09-02 06:50:54,219 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
+Form Dict: {'key': '', 'old_password': 'Friday2000@T', 'new_password': '', 'logout_all_sessions': '1', 'cmd': 'frappe.core.doctype.user.user.update_password'}
+2021-09-05 04:03:22,897 ERROR frappe New Exception collected with id: 2021-09-05 04:03:22.698800-8.17.206.93-636
 Site: mum125.erpgulf.com
-Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","like","%ART%"],["DocType","name","=","Workspace"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
-Traceback (most recent call last):
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 54, in application
-    init_request(request)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/app.py", line 128, in init_request
-    frappe.local.http_request = frappe.auth.HTTPRequest()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/auth.py", line 32, in __init__
-    self.set_session()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/auth.py", line 69, in set_session
-    frappe.local.login_manager = LoginManager()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/auth.py", line 122, in __init__
-    self.make_session(resume=True)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/auth.py", line 206, in make_session
-    full_name=self.full_name, user_type=self.user_type)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/sessions.py", line 189, in __init__
-    self.resume()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/sessions.py", line 255, in resume
-    validate_ip_address(self.user)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/auth.py", line 390, in validate_ip_address
-    user = frappe.get_cached_doc("User", user) if not frappe.flags.in_test else frappe.get_doc("User", user)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 807, in get_cached_doc
-    doc = get_doc(*args, **kwargs)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 850, in get_doc
-    doc = frappe.model.document.get_doc(*args, **kwargs)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 75, in get_doc
-    return controller(*args, **kwargs)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 113, in __init__
-    self.load_from_db()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 142, in load_from_db
-    if not getattr(self, "_metaclass", False) and self.meta.issingle:
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/base_document.py", line 91, in meta
-    self._meta = frappe.get_meta(self.doctype)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 881, in get_meta
-    return frappe.model.meta.get_meta(doctype, cached=cached)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 37, in get_meta
-    meta = Meta(doctype)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 84, in __init__
-    self.process()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 105, in process
-    self.set_custom_permissions()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 420, in set_custom_permissions
-    filters=dict(parent=self.name), update=dict(doctype='Custom DocPerm'))
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 1433, in get_all
-    return get_list(doctype, *args, **kwargs)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/__init__.py", line 1406, in get_list
-    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 101, in execute
-    self.columns = self.get_table_columns()
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/db_query.py", line 338, in get_table_columns
-    return get_table_columns(self.doctype)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/meta.py", line 49, in get_table_columns
-    return frappe.db.get_table_columns(doctype)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/database/database.py", line 894, in get_table_columns
-    raise self.TableMissingError('DocType', doctype)
-pymysql.err.ProgrammingError: ('DocType', 'Custom DocPerm')
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
-    snapshot = get_snapshot(exception)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in get_snapshot
-    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
-  File "/usr/lib64/python3.6/inspect.py", line 1269, in formatargvalues
-    specs.append(convert(args[i]))
-  File "/usr/lib64/python3.6/inspect.py", line 1266, in convert
-    return formatarg(name) + formatvalue(locals[name])
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in <lambda>
-    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
-  File "/usr/lib64/python3.6/reprlib.py", line 55, in repr
-    return self.repr1(x, self.maxlevel)
-  File "/usr/lib64/python3.6/pydoc.py", line 1035, in repr1
-    return cram(stripid(repr(x)), self.maxother)
-  File "/opt/bench/frappe-bench/apps/frappe/frappe/model/document.py", line 1360, in __repr__
-    docstatus = f" docstatus={self.docstatus}" if self.docstatus else ""
-AttributeError: 'User' object has no attribute 'docstatus'
+Form Dict: {'doctype': 'Library membership', 'name': 'LMS00003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2021-09-05 04:09:33,774 ERROR frappe New Exception collected with id: 2021-09-05 04:09:33.625706-8.17.206.93-973
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-05 04:12:17,100 ERROR frappe New Exception collected with id: 2021-09-05 04:12:17.081275-8.17.206.93-2b0
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-05 04:16:23,072 ERROR frappe New Exception collected with id: 2021-09-05 04:16:23.051637-8.17.206.93-ad8
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-05 04:20:30,600 ERROR frappe New Exception collected with id: 2021-09-05 04:20:30.581340-8.17.206.93-6bf
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-05 04:28:12,658 ERROR frappe New Exception collected with id: 2021-09-05 04:28:12.637374-8.17.206.93-b3b
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library membership","name":"new-library-membership-4","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"__run_link_triggers":1,"library_member":"0394a70570"}', 'cmd': 'frappe.client.save'}
+2021-09-05 04:33:28,533 ERROR frappe New Exception collected with id: 2021-09-05 04:33:28.511383-8.17.206.93-d3c
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'with_parent': '1', 'cached_timestamp': '2021-09-05 06:23:49.881760', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-05 04:39:07,403 ERROR frappe New Exception collected with id: 2021-09-05 04:39:07.381517-8.17.206.93-cc5
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'name': 'LMS00001', 'cmd': 'frappe.desk.form.load.getdoc'}
+2021-09-05 04:39:16,631 ERROR frappe New Exception collected with id: 2021-09-05 04:39:16.609214-8.17.206.93-0a2
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'name': 'LMS00002', 'cmd': 'frappe.desk.form.load.getdoc'}
+2021-09-05 04:42:24,124 ERROR frappe New Exception collected with id: 2021-09-05 04:42:24.122532-8.17.206.93-da9
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'name': 'LMS00004', 'cmd': 'frappe.desk.form.load.getdoc'}
+2021-09-05 04:43:10,086 ERROR frappe New Exception collected with id: 2021-09-05 04:43:10.084327-8.17.206.93-83c
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'name': 'LMS00004', 'cmd': 'frappe.desk.form.load.getdoc'}
+2021-09-07 06:49:37,759 ERROR frappe New Exception collected with id: 2021-09-07 06:49:37.670467-8.17.206.93-c7a
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'name': 'LMS00004', 'cmd': 'frappe.desk.form.load.getdoc'}
+2021-09-07 06:50:09,398 ERROR frappe New Exception collected with id: 2021-09-07 06:50:09.290275-8.17.206.93-c15
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'name': 'LMS00002', 'cmd': 'frappe.desk.form.load.getdoc'}
+2021-09-07 06:50:50,581 ERROR frappe New Exception collected with id: 2021-09-07 06:50:50.579425-8.17.206.93-d75
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'name': 'LMS00004', 'cmd': 'frappe.desk.form.load.getdoc'}
+2021-09-07 07:31:17,734 ERROR frappe New Exception collected with id: 2021-09-07 07:31:17.731860-8.17.206.93-24e
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'name': 'LMS00002', 'cmd': 'frappe.desk.form.load.getdoc'}
+2021-09-07 07:31:46,804 ERROR frappe New Exception collected with id: 2021-09-07 07:31:46.802438-8.17.206.93-16a
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'name': 'LMS00001', 'cmd': 'frappe.desk.form.load.getdoc'}
+2021-09-07 07:31:51,905 ERROR frappe New Exception collected with id: 2021-09-07 07:31:51.903487-8.17.206.93-446
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'name': 'LMS00002', 'cmd': 'frappe.desk.form.load.getdoc'}
+2021-09-07 07:32:03,693 ERROR frappe New Exception collected with id: 2021-09-07 07:32:03.690904-8.17.206.93-0f9
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library membership', 'name': 'LMS00003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2021-09-08 06:24:34,475 ERROR frappe New Exception collected with id: 2021-09-08 06:24:33.429417-8.17.206.93-0e9
+Site: mum125.erpgulf.com
+Form Dict: {'docs': '{"name":"Customize Form","max_attachments":0,"allow_copy":0,"istable":0,"editable_grid":1,"quick_entry":1,"track_changes":1,"track_views":0,"allow_auto_repeat":0,"allow_import":0,"show_preview_popup":0,"email_append_to":0,"sort_order":"DESC","doctype":"Customize Form","fields":[{"name":"258a8a3570","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":1,"docstatus":0,"label":"Library Member","fieldtype":"Link","fieldname":"library_member","non_negative":0,"reqd":1,"unique":0,"in_list_view":1,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"options":"Library member","fetch_from":"","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"dc2428bf03","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":2,"docstatus":0,"label":"Full Name","fieldtype":"Data","fieldname":"full_name","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"fetch_from":"library_member.full_name","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":1,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"9943b55974","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":3,"docstatus":0,"label":"From Date","fieldtype":"Date","fieldname":"from_date","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"40e22673be","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":4,"docstatus":0,"label":"To Date","fieldtype":"Data","fieldname":"to_date","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"fetch_if_empty":0,"permlevel":0,"hidden":1,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"docstatus":0,"doctype":"Customize Form Field","name":"new-customize-form-field-1","__islocal":1,"__unsaved":1,"owner":"Administrator","fieldtype":"Date","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":1,"precision":"","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"is_custom_field":1,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":5,"__unedited":false,"label":"Upto Date"},{"name":"45e3cc646f","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":6,"docstatus":0,"label":"Paid","fieldtype":"Check","fieldname":"paid","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"default":"0","precision":"","length":0,"fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"855a891c92","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":7,"docstatus":0,"label":"Amended From","fieldtype":"Link","fieldname":"amended_from","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"length":0,"options":"Library_membership","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":1,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":1,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false}],"actions":[],"links":[],"doc_type":"Library_membership","__unsaved":1,"label":"","autoname":"LMSN.#####","title_field":"full_name","sort_field":"modified"}', 'method': 'save_customization', 'cmd': 'run_doc_method'}
+2021-09-08 06:24:50,700 ERROR frappe New Exception collected with id: 2021-09-08 06:24:50.673968-8.17.206.93-1ca
+Site: mum125.erpgulf.com
+Form Dict: {'docs': '{"name":"Customize Form","max_attachments":0,"allow_copy":0,"istable":0,"editable_grid":1,"quick_entry":1,"track_changes":1,"track_views":0,"allow_auto_repeat":0,"allow_import":0,"show_preview_popup":0,"email_append_to":0,"sort_order":"DESC","doctype":"Customize Form","fields":[{"name":"258a8a3570","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":1,"docstatus":0,"label":"Library Member","fieldtype":"Link","fieldname":"library_member","non_negative":0,"reqd":1,"unique":0,"in_list_view":1,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"options":"Library member","fetch_from":"","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"dc2428bf03","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":2,"docstatus":0,"label":"Full Name","fieldtype":"Data","fieldname":"full_name","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"fetch_from":"library_member.full_name","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":1,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"9943b55974","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":3,"docstatus":0,"label":"From Date","fieldtype":"Date","fieldname":"from_date","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"40e22673be","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":4,"docstatus":0,"label":"To Date","fieldtype":"Data","fieldname":"to_date","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"fetch_if_empty":0,"permlevel":0,"hidden":1,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"docstatus":0,"doctype":"Customize Form Field","name":"new-customize-form-field-1","__islocal":1,"__unsaved":1,"owner":"Administrator","fieldtype":"Date","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":1,"precision":"","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"is_custom_field":1,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":5,"__unedited":false,"label":"Upto Date"},{"name":"45e3cc646f","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":6,"docstatus":0,"label":"Paid","fieldtype":"Check","fieldname":"paid","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"default":"0","precision":"","length":0,"fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"855a891c92","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":7,"docstatus":0,"label":"Amended From","fieldtype":"Link","fieldname":"amended_from","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"length":0,"options":"Library_membership","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":1,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":1,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false}],"actions":[],"links":[],"doc_type":"Library_membership","__unsaved":1,"label":"","autoname":"LMSN.#####","title_field":"full_name","sort_field":"modified"}', 'method': 'save_customization', 'cmd': 'run_doc_method'}
+2021-09-08 06:25:34,692 ERROR frappe New Exception collected with id: 2021-09-08 06:25:34.649457-8.17.206.93-a46
+Site: mum125.erpgulf.com
+Form Dict: {'docs': '{"name":"Customize Form","max_attachments":0,"allow_copy":0,"istable":0,"editable_grid":1,"quick_entry":1,"track_changes":1,"track_views":0,"allow_auto_repeat":0,"allow_import":0,"show_preview_popup":0,"email_append_to":0,"sort_order":"DESC","doctype":"Customize Form","fields":[{"name":"258a8a3570","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":1,"docstatus":0,"label":"Library Member","fieldtype":"Link","fieldname":"library_member","non_negative":0,"reqd":1,"unique":0,"in_list_view":1,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"options":"Library member","fetch_from":"","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"dc2428bf03","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":2,"docstatus":0,"label":"Full Name","fieldtype":"Data","fieldname":"full_name","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"fetch_from":"library_member.full_name","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":1,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"9943b55974","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":3,"docstatus":0,"label":"From Date","fieldtype":"Date","fieldname":"from_date","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"docstatus":0,"doctype":"Customize Form Field","name":"new-customize-form-field-1","__islocal":1,"__unsaved":1,"owner":"Administrator","fieldtype":"Date","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":1,"precision":"","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"is_custom_field":1,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":4,"__unedited":false,"label":"Upto Date"},{"name":"45e3cc646f","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":5,"docstatus":0,"label":"Paid","fieldtype":"Check","fieldname":"paid","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"default":"0","precision":"","length":0,"fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"855a891c92","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":6,"docstatus":0,"label":"Amended From","fieldtype":"Link","fieldname":"amended_from","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"length":0,"options":"Library_membership","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":1,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":1,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"40e22673be","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":7,"docstatus":0,"label":"To Date","fieldtype":"Data","fieldname":"to_date","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"fetch_if_empty":0,"permlevel":0,"hidden":1,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false}],"actions":[],"links":[],"doc_type":"Library_membership","__unsaved":1,"label":"","autoname":"LMSN.#####","title_field":"full_name","sort_field":"modified"}', 'method': 'save_customization', 'cmd': 'run_doc_method'}
+2021-09-08 06:28:42,790 ERROR frappe New Exception collected with id: 2021-09-08 06:28:42.779719-8.17.206.93-6a3
+Site: mum125.erpgulf.com
+Form Dict: {'docs': '{"name":"Customize Form","max_attachments":0,"allow_copy":0,"istable":0,"editable_grid":1,"quick_entry":1,"track_changes":1,"track_views":0,"allow_auto_repeat":0,"allow_import":0,"show_preview_popup":0,"email_append_to":0,"sort_order":"DESC","doctype":"Customize Form","fields":[{"name":"258a8a3570","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":1,"docstatus":0,"label":"Library Member","fieldtype":"Link","fieldname":"library_member","non_negative":0,"reqd":1,"unique":0,"in_list_view":1,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"options":"Library member","fetch_from":"","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"dc2428bf03","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":2,"docstatus":0,"label":"Full Name","fieldtype":"Data","fieldname":"full_name","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"fetch_from":"library_member.full_name","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":1,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"9943b55974","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":3,"docstatus":0,"label":"From Date","fieldtype":"Date","fieldname":"from_date","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"docstatus":0,"doctype":"Customize Form Field","name":"new-customize-form-field-1","__islocal":1,"__unsaved":1,"owner":"Administrator","fieldtype":"Date","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":1,"precision":"","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"is_custom_field":1,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":4,"__unedited":false,"label":"Upto Date"},{"name":"45e3cc646f","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":5,"docstatus":0,"label":"Paid","fieldtype":"Check","fieldname":"paid","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"default":"0","precision":"","length":0,"fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"855a891c92","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":6,"docstatus":0,"label":"Amended From","fieldtype":"Link","fieldname":"amended_from","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"length":0,"options":"Library_membership","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":1,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":1,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"40e22673be","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":7,"docstatus":0,"label":"To Date","fieldtype":"Data","fieldname":"to_date","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"fetch_if_empty":0,"permlevel":0,"hidden":1,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false}],"actions":[],"links":[],"doc_type":"Library_membership","__unsaved":1,"label":"","autoname":"LMSN.#####","title_field":"full_name","sort_field":"modified"}', 'method': 'save_customization', 'cmd': 'run_doc_method'}
+2021-09-08 06:28:54,458 ERROR frappe New Exception collected with id: 2021-09-08 06:28:54.452695-8.17.206.93-d6e
+Site: mum125.erpgulf.com
+Form Dict: {'docs': '{"name":"Customize Form","max_attachments":0,"allow_copy":0,"istable":0,"editable_grid":1,"quick_entry":1,"track_changes":1,"track_views":0,"allow_auto_repeat":0,"allow_import":0,"show_preview_popup":0,"email_append_to":0,"sort_order":"DESC","doctype":"Customize Form","fields":[{"name":"258a8a3570","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":1,"docstatus":0,"label":"Library Member","fieldtype":"Link","fieldname":"library_member","non_negative":0,"reqd":1,"unique":0,"in_list_view":1,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"options":"Library member","fetch_from":"","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"dc2428bf03","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":2,"docstatus":0,"label":"Full Name","fieldtype":"Data","fieldname":"full_name","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"fetch_from":"library_member.full_name","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":1,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"9943b55974","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":3,"docstatus":0,"label":"From Date","fieldtype":"Date","fieldname":"from_date","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"docstatus":0,"doctype":"Customize Form Field","name":"new-customize-form-field-1","__islocal":1,"__unsaved":1,"owner":"Administrator","fieldtype":"Date","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":1,"precision":"","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"is_custom_field":1,"parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":4,"__unedited":false,"label":"Upto Date"},{"name":"45e3cc646f","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":5,"docstatus":0,"label":"Paid","fieldtype":"Check","fieldname":"paid","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"default":"0","precision":"","length":0,"fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"855a891c92","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":6,"docstatus":0,"label":"Amended From","fieldtype":"Link","fieldname":"amended_from","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"length":0,"options":"Library_membership","fetch_if_empty":0,"permlevel":0,"hidden":0,"read_only":1,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":1,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false},{"name":"40e22673be","parent":"Customize Form","parentfield":"fields","parenttype":"Customize Form","idx":7,"docstatus":0,"label":"To Date","fieldtype":"Data","fieldname":"to_date","non_negative":0,"reqd":0,"unique":0,"in_list_view":0,"in_standard_filter":0,"in_global_search":0,"in_preview":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"precision":"","length":0,"fetch_if_empty":0,"permlevel":0,"hidden":1,"read_only":0,"collapsible":0,"allow_bulk_edit":0,"ignore_user_permissions":0,"allow_on_submit":0,"report_hide":0,"remember_last_selected_value":0,"hide_border":0,"in_filter":0,"hide_seconds":0,"hide_days":0,"print_hide":0,"print_hide_if_no_value":0,"columns":0,"is_custom_field":0,"doctype":"Customize Form Field","_sortable":false}],"actions":[],"links":[],"doc_type":"Library_membership","__unsaved":1,"label":"","autoname":"LMSN.#####","title_field":"full_name","sort_field":"modified"}', 'method': 'save_customization', 'cmd': 'run_doc_method'}
+2021-09-08 06:37:19,995 ERROR frappe New Exception collected with id: 2021-09-08 06:37:18.503801-8.17.206.93-8ff
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library_membership","name":"new-library_membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":1,"full_name":"HUD","library_member":"0394a70570","from_date":"2021-09-08"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-08 06:59:18,474 ERROR frappe New Exception collected with id: 2021-09-08 06:59:18.450428-78.100.211.126-4be
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library_membership","name":"new-library_membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"library_member":"14b4048107","full_name":"Huda  T"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-08 07:01:59,866 ERROR frappe New Exception collected with id: 2021-09-08 07:01:59.846249-78.100.211.126-d18
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library_membership","name":"new-library_membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"library_member":"14b4048107","full_name":"Huda  T"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-08 07:02:34,603 ERROR frappe New Exception collected with id: 2021-09-08 07:02:34.600265-78.100.211.126-36c
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library_membership","name":"new-library_membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"library_member":"14b4048107","full_name":"Huda  T"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-08 07:03:05,101 ERROR frappe New Exception collected with id: 2021-09-08 07:03:05.098737-78.100.211.126-d92
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library_membership","name":"new-library_membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"library_member":"14b4048107","full_name":"Huda  T"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-08 07:03:43,843 ERROR frappe New Exception collected with id: 2021-09-08 07:03:43.838964-78.100.211.126-431
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library_membership","name":"new-library_membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"library_member":"14b4048107","full_name":"Huda  T"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-08 07:18:02,642 ERROR frappe New Exception collected with id: 2021-09-08 07:18:02.638674-78.100.211.126-1dd
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library_membership","name":"new-library_membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"full_name":"Huda  T","library_member":"14b4048107"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-08 07:18:49,911 ERROR frappe New Exception collected with id: 2021-09-08 07:18:49.908162-78.100.211.126-766
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library_membership","name":"new-library_membership-2","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"__run_link_triggers":1,"library_member":"f2c3754f19"}', 'cmd': 'frappe.client.save'}
+2021-09-08 07:19:28,728 ERROR frappe New Exception collected with id: 2021-09-08 07:19:28.726421-78.100.211.126-c22
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library_membership","name":"new-library_membership-2","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"library_member":"f2c3754f19","full_name":"Member01 Member"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-08 07:19:38,639 ERROR frappe New Exception collected with id: 2021-09-08 07:19:38.608012-78.100.211.126-248
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library_membership","name":"new-library_membership-2","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"library_member":"f2c3754f19","full_name":"Member01 Member","from_date":"2021-09-08"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-08 07:19:43,051 ERROR frappe New Exception collected with id: 2021-09-08 07:19:43.049020-78.100.211.126-29f
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library_membership","name":"new-library_membership-2","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":1,"library_member":"f2c3754f19","full_name":"Member01 Member","from_date":"2021-09-08"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-08 07:36:34,155 ERROR frappe New Exception collected with id: 2021-09-08 07:36:34.090429-78.100.211.126-57d
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library_membership","name":"new-library_membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"full_name":"HUD","library_member":"0394a70570"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-08 07:36:51,155 ERROR frappe New Exception collected with id: 2021-09-08 07:36:51.150847-78.100.211.126-281
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library_membership","name":"new-library_membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"full_name":"dddddddd","library_member":"fb143ce0e0"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-08 07:38:50,043 ERROR frappe New Exception collected with id: 2021-09-08 07:38:50.040853-78.100.211.126-c05
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library_membership","name":"new-library_membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"__run_link_triggers":1,"library_member":"0394a70570"}', 'cmd': 'frappe.client.save'}
+2021-09-08 07:57:41,099 ERROR frappe New Exception collected with id: 2021-09-08 07:57:41.095363-8.17.206.93-422
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library_membership","name":"new-library_membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":1,"library_member":"5a25ca35c6","full_name":"Nikila Ajith","from_date":"2021-09-08"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-09 05:03:09,402 ERROR frappe New Exception collected with id: 2021-09-09 05:03:09.367965-103.94.139.133-4e8
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 05:08:07,001 ERROR frappe New Exception collected with id: 2021-09-09 05:08:06.998021-103.94.139.133-592
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 05:09:35,683 ERROR frappe New Exception collected with id: 2021-09-09 05:09:35.646650-103.94.139.133-79b
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 05:10:12,608 ERROR frappe New Exception collected with id: 2021-09-09 05:10:12.596693-103.94.139.133-ad5
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 05:11:11,903 ERROR frappe New Exception collected with id: 2021-09-09 05:11:11.900488-103.94.139.133-d3d
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 05:11:33,923 ERROR frappe New Exception collected with id: 2021-09-09 05:11:33.875120-103.94.139.133-558
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 05:16:44,216 ERROR frappe New Exception collected with id: 2021-09-09 05:16:44.213895-117.230.95.47-d04
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 05:17:27,824 ERROR frappe New Exception collected with id: 2021-09-09 05:17:27.821408-117.230.95.47-47c
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 05:18:05,796 ERROR frappe New Exception collected with id: 2021-09-09 05:18:05.792997-117.230.95.47-99d
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 05:25:49,106 ERROR frappe New Exception collected with id: 2021-09-09 05:25:49.102957-117.230.95.47-b1a
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 05:25:49,568 ERROR frappe New Exception collected with id: 2021-09-09 05:25:49.565383-117.230.95.47-ee0
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 05:25:50,618 ERROR frappe New Exception collected with id: 2021-09-09 05:25:50.614915-117.230.95.47-b77
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 09:13:33,225 ERROR frappe New Exception collected with id: 2021-09-09 09:13:33.218676-103.94.139.133-987
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 09:15:35,924 ERROR frappe New Exception collected with id: 2021-09-09 09:15:35.885348-103.94.139.133-610
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 09:15:57,983 ERROR frappe New Exception collected with id: 2021-09-09 09:15:57.946824-103.94.139.133-6f0
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 09:16:54,484 ERROR frappe New Exception collected with id: 2021-09-09 09:16:54.481660-103.94.139.133-ede
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-09 09:17:05,360 ERROR frappe New Exception collected with id: 2021-09-09 09:17:05.302508-103.94.139.133-291
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_all_members'}
+2021-09-10 09:59:35,870 ERROR frappe New Exception collected with id: 2021-09-10 09:59:35.746765-78.100.211.126-a83
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_members'}
+2021-09-10 10:03:02,379 ERROR frappe New Exception collected with id: 2021-09-10 10:03:02.376149-78.100.211.126-6bf
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_members'}
+2021-09-10 10:06:54,019 ERROR frappe New Exception collected with id: 2021-09-10 10:06:53.950593-78.100.211.126-91c
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_members'}
+2021-09-11 14:16:52,456 ERROR frappe New Exception collected with id: 2021-09-11 14:16:51.531008-8.17.206.222-486
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_member_det'}
+2021-09-11 14:18:19,160 ERROR frappe New Exception collected with id: 2021-09-11 14:18:19.047479-8.17.206.222-e54
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_member_det'}
+2021-09-11 14:22:41,033 ERROR frappe New Exception collected with id: 2021-09-11 14:22:40.904997-8.17.206.222-dcf
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_member_det'}
+2021-09-11 14:24:12,917 ERROR frappe New Exception collected with id: 2021-09-11 14:24:12.789822-8.17.206.222-600
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_member_det'}
+2021-09-11 14:31:11,664 ERROR frappe New Exception collected with id: 2021-09-11 14:31:11.542913-8.17.206.222-3b2
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.new_membership.api.get_member_det'}
+2021-09-11 16:39:17,782 ERROR frappe New Exception collected with id: 2021-09-11 16:39:16.841211-8.17.206.222-6a2
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"new_membership","name":"new-new_membership-2","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"library_member":"doris"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-11 16:41:35,507 ERROR frappe New Exception collected with id: 2021-09-11 16:41:35.389732-8.17.206.222-c4c
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'new_membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-11 16:44:03,105 ERROR frappe New Exception collected with id: 2021-09-11 16:44:03.074745-8.17.206.222-c27
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'new_membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-11 16:44:10,540 ERROR frappe New Exception collected with id: 2021-09-11 16:44:10.413853-8.17.206.222-9d7
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'new_membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-11 16:45:40,220 ERROR frappe New Exception collected with id: 2021-09-11 16:45:40.073603-8.17.206.222-f57
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'new_membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-11 16:45:56,277 ERROR frappe New Exception collected with id: 2021-09-11 16:45:56.154006-8.17.206.222-2e7
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'new_membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-11 16:49:12,119 ERROR frappe New Exception collected with id: 2021-09-11 16:49:11.769422-8.17.206.222-54c
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'new_membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-11 16:50:31,731 ERROR frappe New Exception collected with id: 2021-09-11 16:50:31.544448-8.17.206.222-afb
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'new_membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-11 16:50:56,946 ERROR frappe New Exception collected with id: 2021-09-11 16:50:56.808889-8.17.206.222-50e
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'new_membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-11 17:36:51,280 ERROR frappe New Exception collected with id: 2021-09-11 17:36:50.531005-8.17.206.222-de9
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library member', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-11 17:37:26,591 ERROR frappe New Exception collected with id: 2021-09-11 17:37:26.473398-8.17.206.222-aea
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library member', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-11 17:40:39,928 ERROR frappe New Exception collected with id: 2021-09-11 17:40:39.756581-8.17.206.222-50c
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library member', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-11 17:44:29,850 ERROR frappe New Exception collected with id: 2021-09-11 17:44:29.650905-8.17.206.222-a59
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library member', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-11 17:47:14,315 ERROR frappe New Exception collected with id: 2021-09-11 17:47:14.187355-8.17.206.222-848
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Library member', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-12 05:47:05,809 ERROR frappe New Exception collected with id: 2021-09-12 05:47:05.590002-8.17.206.222-03c
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"article_library","name":"new-article_library-1","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Issued","article_name":"Godfather","author":"George","publisher":"George","article_cost":234,"delivery_cost":23,"total_cost":257}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-12 05:47:38,966 ERROR frappe New Exception collected with id: 2021-09-12 05:47:38.871269-8.17.206.222-a43
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"article_library","name":"new-article_library-1","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Issued","article_name":"Godfather","author":"George","publisher":"George","article_cost":234,"delivery_cost":23,"total_cost":257}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-12 05:51:41,217 ERROR frappe New Exception collected with id: 2021-09-12 05:51:41.106995-8.17.206.222-f5c
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"article_library","name":"new-article_library-1","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Issued","article_name":"Godfather","author":"George","article_cost":234,"delivery_cost":45,"total_cost":279}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-12 05:51:56,268 ERROR frappe New Exception collected with id: 2021-09-12 05:51:56.167943-8.17.206.222-a4c
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"article_library","name":"new-article_library-1","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Issued","article_name":"Godfather","author":"George","article_cost":234,"delivery_cost":45,"total_cost":279}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-12 05:58:26,300 ERROR frappe New Exception collected with id: 2021-09-12 05:58:26.203858-8.17.206.222-7a4
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"article_library","name":"new-article_library-1","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Issued","article_name":"Test","author":"Test","total_cost":null}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-12 06:01:19,161 ERROR frappe New Exception collected with id: 2021-09-12 06:01:19.034012-8.17.206.222-a56
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"article_library","name":"new-article_library-1","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Issued","article_name":"test","author":"test","total_cost":null}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-14 05:12:34,136 ERROR frappe New Exception collected with id: 2021-09-14 05:12:33.630292-117.230.85.40-82d
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'article_library', 'with_parent': '1', 'cached_timestamp': '2021-09-02 14:44:33.121136', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-14 05:14:34,614 ERROR frappe New Exception collected with id: 2021-09-14 05:14:31.498136-117.230.85.40-fe3
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'article_library', 'with_parent': '1', 'cached_timestamp': '2021-09-02 14:44:33.121136', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-14 06:25:36,398 ERROR frappe New Exception collected with id: 2021-09-14 06:25:35.688777-129.151.47.66-d90
+Site: mum125.erpgulf.com
+Form Dict: {'sid': '88b69f2d157e0f39f3a35abb6732265bca95b1ae0373cd5e1fcea2dc'}
+2021-09-14 06:25:36,524 ERROR frappe New Exception collected with id: 2021-09-14 06:25:36.404761-150.129.103.35-31b
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'new_membership', 'fields': '["`tabnew_membership`.`name`","`tabnew_membership`.`owner`","`tabnew_membership`.`creation`","`tabnew_membership`.`modified`","`tabnew_membership`.`modified_by`","`tabnew_membership`.`_user_tags`","`tabnew_membership`.`_comments`","`tabnew_membership`.`_assign`","`tabnew_membership`.`_liked_by`","`tabnew_membership`.`docstatus`","`tabnew_membership`.`parent`","`tabnew_membership`.`parenttype`","`tabnew_membership`.`parentfield`","`tabnew_membership`.`idx`"]', 'filters': '[]', 'order_by': '`tabnew_membership`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
+2021-09-14 06:25:46,388 ERROR frappe New Exception collected with id: 2021-09-14 06:25:46.362366-150.129.103.35-9fe
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'Route History', 'records': '[{"user":"Administrator","creation":"2021-09-14 09:25:29","route":"List/new_membership/List"}]'}
+2021-09-14 06:26:57,758 ERROR frappe New Exception collected with id: 2021-09-14 06:26:57.726721-150.129.103.35-d4b
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'new_membership', 'fields': '["`tabnew_membership`.`name`","`tabnew_membership`.`owner`","`tabnew_membership`.`creation`","`tabnew_membership`.`modified`","`tabnew_membership`.`modified_by`","`tabnew_membership`.`_user_tags`","`tabnew_membership`.`_comments`","`tabnew_membership`.`_assign`","`tabnew_membership`.`_liked_by`","`tabnew_membership`.`docstatus`","`tabnew_membership`.`parent`","`tabnew_membership`.`parenttype`","`tabnew_membership`.`parentfield`","`tabnew_membership`.`idx`"]', 'filters': '[]', 'order_by': '`tabnew_membership`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
+2021-09-14 06:31:14,744 ERROR frappe New Exception collected with id: 2021-09-14 06:31:14.584951-150.129.103.35-088
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'article_library', 'name': 'HOOK', 'cmd': 'frappe.client.delete'}
+2021-09-14 07:23:25,020 ERROR frappe New Exception collected with id: 2021-09-14 07:23:23.584674-117.230.85.40-931
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'article_library', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-14 11:33:52,028 ERROR frappe New Exception collected with id: 2021-09-14 11:33:50.801541-150.129.103.35-351
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.utils.get_author_articles'}
+2021-09-14 11:39:20,277 ERROR frappe New Exception collected with id: 2021-09-14 11:39:20.183779-150.129.103.35-f2e
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.utils.get_author_articles'}
+2021-09-14 11:52:42,465 ERROR frappe New Exception collected with id: 2021-09-14 11:52:41.986140-150.129.103.35-9eb
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'article_library', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-15 05:48:29,006 ERROR frappe New Exception collected with id: 2021-09-15 05:48:28.118933-103.78.17.98-d62
+Site: mum125.erpgulf.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"article_library","name":"new-article_library-1","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Issued","article_name":"test api","author":"api testt","publisher":"tester publication"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-09-15 10:59:32,438 DEBUG frappe {'webhook_error': ConnectTimeout(MaxRetryError("HTTPConnectionPool(host='192.168.1.7', port=8000): Max retries exceeded with url: /?city=London (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f807c81ed68>, 'Connection to 192.168.1.7 timed out. (connect timeout=5)'))",),), 'try': 1}
+Site: mum125.erpgulf.com
+Form Dict: {}
+2021-09-15 10:59:43,989 DEBUG frappe {'webhook_error': ConnectTimeout(MaxRetryError("HTTPConnectionPool(host='192.168.1.7', port=8000): Max retries exceeded with url: /?city=London (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f807c81edd8>, 'Connection to 192.168.1.7 timed out. (connect timeout=5)'))",),), 'try': 1}
+Site: mum125.erpgulf.com
+Form Dict: {}
+2021-09-15 11:46:00,831 DEBUG frappe {'webhook_error': ConnectTimeout(MaxRetryError("HTTPConnectionPool(host='192.168.1.7', port=8000): Max retries exceeded with url: /?city=London (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5a1d9d60b8>, 'Connection to 192.168.1.7 timed out. (connect timeout=5)'))",),), 'try': 1}
+Site: mum125.erpgulf.com
+Form Dict: {}
+2021-09-15 11:46:06,603 DEBUG frappe {'webhook_error': ConnectTimeout(MaxRetryError("HTTPConnectionPool(host='192.168.1.7', port=8000): Max retries exceeded with url: /?city=London (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5a1f115fd0>, 'Connection to 192.168.1.7 timed out. (connect timeout=5)'))",),), 'try': 1}
+Site: mum125.erpgulf.com
+Form Dict: {}
+2021-09-16 05:35:15,157 DEBUG frappe {'webhook_error': ConnectTimeout(MaxRetryError("HTTPConnectionPool(host='192.168.1.7', port=8000): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fb9285aee10>, 'Connection to 192.168.1.7 timed out. (connect timeout=5)'))",),), 'try': 1}
+Site: mum125.erpgulf.com
+Form Dict: {}
+2021-09-16 05:35:24,344 DEBUG frappe {'webhook_error': ConnectTimeout(MaxRetryError("HTTPConnectionPool(host='192.168.1.7', port=8000): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fb9285aef98>, 'Connection to 192.168.1.7 timed out. (connect timeout=5)'))",),), 'try': 1}
+Site: mum125.erpgulf.com
+Form Dict: {}
+2021-09-16 05:38:08,570 DEBUG frappe {'webhook_error': ConnectTimeout(MaxRetryError("HTTPConnectionPool(host='192.168.1.7', port=8000): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fb9285aeda0>, 'Connection to 192.168.1.7 timed out. (connect timeout=5)'))",),), 'try': 1}
+Site: mum125.erpgulf.com
+Form Dict: {}
+2021-09-16 05:38:13,972 DEBUG frappe {'webhook_error': ConnectTimeout(MaxRetryError("HTTPConnectionPool(host='192.168.1.7', port=8000): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fb9285aee48>, 'Connection to 192.168.1.7 timed out. (connect timeout=5)'))",),), 'try': 1}
+Site: mum125.erpgulf.com
+Form Dict: {}
+2021-09-16 05:45:56,358 DEBUG frappe {'webhook_error': ConnectTimeout(MaxRetryError("HTTPConnectionPool(host='192.168.1.7', port=8000): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fabf49cf128>, 'Connection to 192.168.1.7 timed out. (connect timeout=5)'))",),), 'try': 1}
+Site: mum125.erpgulf.com
+Form Dict: {}
+2021-09-16 05:49:19,425 DEBUG frappe {'webhook_error': ConnectTimeout(MaxRetryError("HTTPConnectionPool(host='192.168.1.7', port=8000): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fabf6193cf8>, 'Connection to 192.168.1.7 timed out. (connect timeout=5)'))",),), 'try': 1}
+Site: mum125.erpgulf.com
+Form Dict: {}
+2021-09-20 12:59:05,799 DEBUG frappe {'webhook_error': ConnectTimeout(MaxRetryError("HTTPConnectionPool(host='192.168.1.7', port=8000): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f129045e048>, 'Connection to 192.168.1.7 timed out. (connect timeout=5)'))",),), 'try': 1}
+Site: mum125.erpgulf.com
+Form Dict: {}
+2021-09-20 12:59:11,334 DEBUG frappe {'webhook_error': ConnectTimeout(MaxRetryError("HTTPConnectionPool(host='192.168.1.7', port=8000): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f1291b9ddd8>, 'Connection to 192.168.1.7 timed out. (connect timeout=5)'))",),), 'try': 1}
+Site: mum125.erpgulf.com
+Form Dict: {}
+2021-09-20 13:13:34,541 DEBUG frappe {'webhook_error': ConnectTimeout(MaxRetryError("HTTPConnectionPool(host='192.168.1.7', port=8000): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7faca5a37048>, 'Connection to 192.168.1.7 timed out. (connect timeout=5)'))",),), 'try': 1}
+Site: mum125.erpgulf.com
+Form Dict: {}
+2021-09-20 13:13:39,804 DEBUG frappe {'webhook_error': ConnectTimeout(MaxRetryError("HTTPConnectionPool(host='192.168.1.7', port=8000): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7faca7176da0>, 'Connection to 192.168.1.7 timed out. (connect timeout=5)'))",),), 'try': 1}
+Site: mum125.erpgulf.com
+Form Dict: {}
+2021-09-22 04:32:14,417 DEBUG frappe {'webhook_error': ConnectTimeout(MaxRetryError("HTTPConnectionPool(host='192.168.1.7', port=8000): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f459560b8>, 'Connection to 192.168.1.7 timed out. (connect timeout=5)'))",),), 'try': 1}
+Site: mum125.erpgulf.com
+Form Dict: {}
+2021-09-23 06:52:02,121 ERROR frappe New Exception collected with id: 2021-09-23 06:52:00.952778-117.208.249.209-03f
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 07:02:49,758 ERROR frappe New Exception collected with id: 2021-09-23 07:02:49.610997-117.208.249.209-7a7
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 07:03:51,716 ERROR frappe New Exception collected with id: 2021-09-23 07:03:51.546104-117.208.249.209-ed6
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 07:20:11,694 ERROR frappe New Exception collected with id: 2021-09-23 07:20:10.631074-117.230.92.181-6bf
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 07:39:07,366 ERROR frappe New Exception collected with id: 2021-09-23 07:39:06.628549-117.230.92.181-e97
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 07:40:12,368 ERROR frappe New Exception collected with id: 2021-09-23 07:40:12.258124-117.230.92.181-3eb
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 07:42:31,176 ERROR frappe New Exception collected with id: 2021-09-23 07:42:31.083721-117.230.92.181-81f
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 08:36:07,671 ERROR frappe New Exception collected with id: 2021-09-23 08:36:07.537833-117.230.92.181-dbb
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 08:42:51,135 ERROR frappe New Exception collected with id: 2021-09-23 08:42:50.323126-117.230.92.181-fca
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 08:45:54,503 ERROR frappe New Exception collected with id: 2021-09-23 08:45:54.411328-117.230.92.181-8f0
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 08:48:29,581 ERROR frappe New Exception collected with id: 2021-09-23 08:48:29.486554-117.208.249.209-8b4
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 08:52:26,274 ERROR frappe New Exception collected with id: 2021-09-23 08:52:26.262299-78.100.211.126-494
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 08:55:47,569 ERROR frappe New Exception collected with id: 2021-09-23 08:55:47.401048-78.100.211.126-8ba
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 09:00:19,889 ERROR frappe New Exception collected with id: 2021-09-23 09:00:18.387598-78.100.211.126-165
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 09:04:38,235 ERROR frappe New Exception collected with id: 2021-09-23 09:04:37.314559-78.100.211.126-cab
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 09:09:21,035 ERROR frappe New Exception collected with id: 2021-09-23 09:09:21.019107-78.100.211.126-227
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 09:27:09,747 ERROR frappe New Exception collected with id: 2021-09-23 09:27:09.134178-78.100.211.126-f88
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 09:32:11,467 ERROR frappe New Exception collected with id: 2021-09-23 09:32:11.396038-78.100.211.126-6af
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 09:33:52,104 ERROR frappe New Exception collected with id: 2021-09-23 09:33:52.101412-78.100.211.126-903
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 09:56:48,990 ERROR frappe New Exception collected with id: 2021-09-23 09:56:48.018556-117.208.249.209-ba8
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 17:29:33,784 ERROR frappe New Exception collected with id: 2021-09-23 17:29:32.251825-78.100.211.126-257
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 17:42:11,352 ERROR frappe New Exception collected with id: 2021-09-23 17:42:11.277094-78.100.211.126-7d0
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 17:47:11,973 ERROR frappe New Exception collected with id: 2021-09-23 17:47:11.890054-78.100.211.126-a74
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-23 17:49:43,723 ERROR frappe New Exception collected with id: 2021-09-23 17:49:43.656384-78.100.211.126-b0d
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '2021-09-22 05:56:50.409768', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-24 05:41:33,801 ERROR frappe New Exception collected with id: 2021-09-24 05:41:33.175975-117.208.249.209-036
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '2021-09-22 05:56:50.409768', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-24 05:42:48,809 ERROR frappe New Exception collected with id: 2021-09-24 05:42:48.718075-117.208.249.209-a0f
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-24 05:43:36,198 ERROR frappe New Exception collected with id: 2021-09-24 05:43:36.113355-117.208.249.209-bfa
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-24 06:47:44,259 ERROR frappe New Exception collected with id: 2021-09-24 06:47:42.356158-117.208.249.209-8c0
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.testing.api.func1'}
+2021-09-24 06:47:55,496 ERROR frappe New Exception collected with id: 2021-09-24 06:47:55.099839-117.208.249.209-894
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.testing.api.func1'}
+2021-09-24 08:45:05,727 ERROR frappe New Exception collected with id: 2021-09-24 08:45:05.667809-117.208.31.11-0f9
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.testing.api.func1'}
+2021-09-24 08:51:34,324 ERROR frappe New Exception collected with id: 2021-09-24 08:51:15.402646-117.208.31.11-af0
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.testing.api.func1'}
+2021-09-24 09:01:50,439 ERROR frappe New Exception collected with id: 2021-09-24 09:01:48.795294-117.208.31.11-741
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.testing.api.func1'}
+2021-09-24 09:28:59,794 ERROR frappe New Exception collected with id: 2021-09-24 09:28:58.532323-117.208.31.11-e10
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.testing.api.func1'}
+2021-09-24 09:50:00,392 ERROR frappe New Exception collected with id: 2021-09-24 09:49:58.684701-117.208.31.11-e3e
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.testing.api.func1'}
+2021-09-24 10:25:04,491 ERROR frappe New Exception collected with id: 2021-09-24 10:25:03.349128-117.208.31.11-645
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-24 10:25:32,254 ERROR frappe New Exception collected with id: 2021-09-24 10:25:32.165055-117.208.31.11-199
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-24 10:26:24,357 ERROR frappe New Exception collected with id: 2021-09-24 10:26:24.337854-117.208.31.11-842
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-24 10:26:30,943 ERROR frappe New Exception collected with id: 2021-09-24 10:26:30.846067-117.208.31.11-303
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-24 10:27:09,364 ERROR frappe New Exception collected with id: 2021-09-24 10:27:09.272511-117.208.31.11-939
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-24 10:28:31,570 ERROR frappe New Exception collected with id: 2021-09-24 10:28:31.552945-117.208.31.11-e6a
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-26 08:17:03,862 ERROR frappe New Exception collected with id: 2021-09-26 08:17:01.359285-117.194.145.222-d06
+Site: mum125.erpgulf.com
+Form Dict: {'cmd': 'library_management.library_management.doctype.testing.testing.fun2'}
+2021-09-26 08:43:33,958 ERROR frappe New Exception collected with id: 2021-09-26 08:43:32.686282-117.194.145.222-625
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-26 08:47:24,300 ERROR frappe New Exception collected with id: 2021-09-26 08:47:24.217555-117.194.145.222-749
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-26 08:51:43,252 ERROR frappe New Exception collected with id: 2021-09-26 08:51:43.168491-117.194.145.222-198
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-26 08:54:11,146 ERROR frappe New Exception collected with id: 2021-09-26 08:54:11.062557-117.194.145.222-95f
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-26 08:54:42,501 ERROR frappe New Exception collected with id: 2021-09-26 08:54:42.417502-117.194.145.222-7c5
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-26 08:55:33,434 ERROR frappe New Exception collected with id: 2021-09-26 08:55:33.347013-117.194.145.222-22a
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-09-26 08:56:45,441 ERROR frappe New Exception collected with id: 2021-09-26 08:56:45.350102-117.194.145.222-0f1
+Site: mum125.erpgulf.com
+Form Dict: {'doctype': 'testing', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
